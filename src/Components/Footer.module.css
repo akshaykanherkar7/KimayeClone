@@ -1,0 +1,17 @@
+.RedHover h1:hover{
+    color: brown;
+}
+.RedHover h1{
+    font-weight: bold;
+
+}
+.Follow h1:hover{
+    font-weight: bold;
+    color: brown;
+}
+.Follow h1{
+    font-weight: bold;
+}
+.imgHover img:hover{
+    cursor: pointer;
+}

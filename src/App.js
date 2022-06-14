@@ -1,12 +1,14 @@
 import "./App.css";
 import Footer from "./Components/Footer";
-// import Navbar from "./Components/Navbar";
+import Navbar from "./Components/Navbar";
+import HomePage from "./Pages/HomePage";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <Navbar></Navbar> */}
-      <Footer></Footer>
+      <HomePage></HomePage>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
