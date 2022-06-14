@@ -39,3 +39,17 @@ margin-top: 8px;
     background-color: #db0101;
     color: white;
 }
+.FlexBox1 img:hover{
+    height: 80%;
+    cursor: pointer;
+}
+.lastbtn{
+    margin-top: 30px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+.lastbtn:hover{
+    background-color: black;
+    color: white;
+}
