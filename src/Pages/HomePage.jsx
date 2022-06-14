@@ -20,7 +20,12 @@ const HomePage = () => {
         </Carousel>
       </div>
 
-      <div style={{ border: "1px solid", height: "auto" }}>
+      <div
+        style={{
+          // border: "1px solid",
+          height: "auto",
+        }}
+      >
         <h1
           style={{ textAlign: "center", fontWeight: "bold", fontSize: "38px" }}
         >
@@ -74,6 +79,107 @@ const HomePage = () => {
               <p>Healthy & memorable gifts for your loved ones</p>
               <button>Shop Now</button>
             </div>
+          </div>
+        </div>
+      </div>
+      <div
+        style={{
+          border: "1px solid",
+          height: "auto",
+          marginTop: "70px",
+          backgroundColor: "#6e9343",
+          borderColor: "#6e9343",
+        }}
+      >
+        <div
+          style={{
+            // border: "1px solid",
+            // height: "900px",
+            display: "flex",
+            justifyContent: "space-evenly",
+            width: "75%",
+            margin: "auto",
+            justifyContent: "center",
+            alignItems: "center",
+            marginTop: "50px",
+          }}
+        >
+          <div>
+            <img
+              style={{ width: "80%" }}
+              src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/kimahi_570x_2db87855-9260-47c2-a80e-3759af77dbea_570x.png?v=1622009438"
+              alt=""
+            />
+          </div>
+          <div
+            style={{
+              // border: "1px solid",
+              width: "50%",
+              height: "530px",
+            }}
+          >
+            <h1
+              style={{
+                fontWeight: "bold",
+                color: "white",
+                textAlign: "start",
+                fontSize: "35px",
+              }}
+            >
+              WE’D LIKE TO SAY <label style={{ color: "brown" }}>KIMA</label>HI…
+            </h1>
+            <p
+              style={{
+                marginTop: "15px",
+                color: "white",
+                textAlign: "start",
+                fontSize: "18px",
+              }}
+            >
+              Many of us share common safety concerns about the food we eat.
+            </p>
+            <p
+              style={{
+                textAlign: "start",
+                marginTop: "20px",
+                color: "white",
+                fontSize: "18px",
+              }}
+            >
+              When it comes to fruits, these concerns are even more serious in
+              terms of the way they are grown and handled throughout their
+              farm-to-home journey. We make eating fruits a worry-free and
+              enjoyable experience for you.
+            </p>
+            <p
+              style={{
+                textAlign: "start",
+                marginTop: "20px",
+                color: "white",
+                fontSize: "18px",
+              }}
+            >
+              Since 2009, we have set the benchmark for fruit safety and quality
+              in 35 countries. Kimaye is now expanding its footprint in India,
+              bringing you multiple varieties of fruit that are grown, packaged,
+              and delivered in the safest and most socially responsible manner.
+            </p>
+            <h1
+              style={{
+                // border: "1px solid",
+                width: "fit-content",
+                marginTop: "30px",
+                fontSize: "25px",
+                fontWeight: "bold",
+                padding: "11px",
+                backgroundColor: "white",
+                borderRadius: "5px",
+              }}
+            >
+              Kimaye is #all<label style={{ color: "brown" }}>Safe</label>
+              #all<label style={{ color: "brown" }}>Good</label>
+            </h1>
+            <button className={styles.lastbtn}>KNOW MORE</button>
           </div>
         </div>
       </div>
