@@ -1,0 +1,41 @@
+body {
+    background-color:#f3f4ede0 ;
+}
+.FlexBox1{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.FlexBox1 div{
+    /* border: 1px solid red; */
+    /* width: 90%; */
+    /* margin: auto; */
+    margin-left: 55px;
+}
+.FlexBox1 img{
+    width: 92%;
+    border-radius: 25px;
+}
+.FlexBox1 h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.FlexBox1 p{
+text-align: center;
+margin-top: 8px;
+}
+.FlexBox1 button{
+    /* border: 1px solid red; */
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 5px 30px;
+    border-radius: 20px;
+    background-color: #db0101;
+    color: white;
+}

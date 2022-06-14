@@ -47,6 +47,10 @@ const Navbar = () => {
           alignItems: "center",
           backgroundColor: "#f3f4ed",
           padding: "20px",
+        //   position: "fixed",
+          top: "30",
+          zIndex: "5",
+          width: "100%",
         }}
       >
         <div style={{ display: "flex", gap: "35px" }}>
