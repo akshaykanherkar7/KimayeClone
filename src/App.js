@@ -6,7 +6,7 @@ import HomePage from "./Pages/HomePage";
 function App() {
   return (
     <div>
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
       <HomePage></HomePage>
       {/* <Footer></Footer> */}
     </div>
