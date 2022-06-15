@@ -129,6 +129,7 @@ const Navbar = () => {
         </div>
         <div style={{ width: "10%" }}>
           <img
+          onClick={()=> navigate("/")}
             style={{ width: "100%" }}
             src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/website-logo_400x@2x.png?v=1596288204"
             alt=""
