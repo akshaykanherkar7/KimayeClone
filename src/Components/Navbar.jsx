@@ -71,9 +71,27 @@ const Navbar = () => {
               >
                 ALL FRUITS
               </MenuItem>
-              <MenuItem>FRESH CUTS</MenuItem>
-              <MenuItem>FRUIT COMBOS</MenuItem>
-              <MenuItem>GIFTS BY KIMAYE</MenuItem>
+              <MenuItem
+                onClick={() => {
+                  navigate("collections/fresh-cuts");
+                }}
+              >
+                FRESH CUTS
+              </MenuItem>
+              <MenuItem
+                onClick={() => {
+                  navigate("collections/fruit-combos");
+                }}
+              >
+                FRUIT COMBOS
+              </MenuItem>
+              <MenuItem
+                onClick={() => {
+                  navigate("collections/gifts-by-kimaye");
+                }}
+              >
+                GIFTS BY KIMAYE
+              </MenuItem>
               <MenuItem>Attend a Workshop</MenuItem>
               <MenuItem>GRAPE FAMILY BY KIMAYE</MenuItem>
               <MenuItem>RETURN AND REPLACEMENT</MenuItem>
