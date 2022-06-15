@@ -53,3 +53,35 @@ margin-top: 8px;
     background-color: black;
     color: white;
 }
+.psstContainer{
+    border: 1px solid;
+    margin-top: 10px;
+    background-color:#f3f4ede0 ;
+    border-color:#f3f4ede0 ;
+}
+.psstContainer h1{
+   text-align: center;
+   font-weight: bold;
+   font-size: 39px;
+   margin-top: 40px;
+}
+.psstContainer h3{
+   text-align: center;
+   font-size: 25px;
+   margin-top: 10px;
+}
+
+.psstImg{
+    /* border: 1px solid; */
+    display: flex;
+    width: 80%;
+    margin: auto;
+   justify-content: space-evenly;
+   gap: 15px;
+   margin-top: 40px;
+   margin-bottom: 60px;
+}
+.psstImg img{
+    width: 24%;
+    border-radius: 15px;
+}
