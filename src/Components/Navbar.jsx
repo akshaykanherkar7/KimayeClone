@@ -20,10 +20,14 @@ import {
   ModalBody,
   ModalCloseButton,
 } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
+import AllFruits from "../Pages/Products/AllFruits";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
+  const navigate = useNavigate();
+
   return (
     <div>
       <div
@@ -60,7 +64,13 @@ const Navbar = () => {
               <ChevronDownIcon />
             </MenuButton>
             <MenuList>
-              <MenuItem>ALL FRUITS</MenuItem>
+              <MenuItem
+                onClick={() => {
+                  navigate("collections/all-fruits");
+                }}
+              >
+                ALL FRUITS
+              </MenuItem>
               <MenuItem>FRESH CUTS</MenuItem>
               <MenuItem>FRUIT COMBOS</MenuItem>
               <MenuItem>GIFTS BY KIMAYE</MenuItem>
