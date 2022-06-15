@@ -7,10 +7,10 @@ import { get_product } from '../../Store/productdetail/product.action';
 export const productdetail = () => {
   let dispatch = useDispatch();
   let {data} = useSelector((state)=>state.product);
-  let id =1;
+  let producttitle = "Kimaye Kesar Mangoes (Pack of 3 & 6)"
 
   useEffect(()=>{
-    dispatch (get_product(id))
+    dispatch (get_product(producttitle))
 
   },[])
 
@@ -18,6 +18,8 @@ export const productdetail = () => {
 
   
   return (
-    <div>productdetail</div>
+    <div>productdetail
+      {console.log(data)}
+    </div>
   )
 }
