@@ -6,7 +6,8 @@ const Footer = () => {
     <div>
       <div
         style={{
-          border: "1px solid ",
+          marginTop: "-24px",
+          // border: "1px solid ",
           height: "280px",
           padding: "35px",
           backgroundColor: "#739253",
