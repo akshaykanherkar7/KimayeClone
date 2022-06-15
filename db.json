@@ -1,7 +1,7 @@
 {
     "allfruits" : [
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-dusheri-mangoes-pack-of-3-6-12",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-dusheri-mangoes-pack-of-3-6-12",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Dasheri_50x50.jpg?v=1623855977",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-dusheri-mangoes-pack-of-3-6-12",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Dasheri-carousel-promise---Copy_50x50.jpg?v=1623928012",
@@ -16,7 +16,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-cherry-blueberry-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-cherry-blueberry-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Cherry--_-blueberry_50x50.jpg?v=1654851019",
           "hover-img href": "",
           "lazyload src": "",
@@ -31,7 +31,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-litchi-500-g",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-litchi-500-g",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Lychee_50x50.jpg?v=1622208039",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-litchi-500-g",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Litchi-promise_50x50.jpg?v=1622279651",
@@ -46,7 +46,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-kaala-jamun",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-kaala-jamun",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/image_50x50.jpg?v=1620889338",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-kaala-jamun",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Jamun-promise_50x50.jpg?v=1620889338",
@@ -61,7 +61,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-fresh-dates-pack-of-250g-500g",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-fresh-dates-pack-of-250g-500g",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Date_d427b5d6-08d3-4f16-8220-a7d3409bbaed_50x50.jpg?v=1624886493",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-fresh-dates-pack-of-250g-500g",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Dates-Promise_50x50.jpg?v=1624887726",
@@ -76,7 +76,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-cherry-250g",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-cherry-250g",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Cherry-cover_29fec80d-0bed-4148-808c-0707021b5db3_50x50.jpg?v=1625033744",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-cherry-250g",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Cherry-Promise_50x50.jpg?v=1625033752",
@@ -91,7 +91,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-honeydew-melin-1-pc",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-honeydew-melin-1-pc",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/HoneydewMeloncover_50x50.jpg?v=1654761963",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-honeydew-melin-1-pc",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/funfacts_59df1b67-ac68-42bf-86c8-e7ef069d1660_50x50.png?v=1654775793",
@@ -106,7 +106,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-apricots",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-apricots",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Apricot-cover_50x50.jpg?v=1624704940",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-apricots",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/image_2eb3bdea-2b3b-487d-b2d3-549f76451461_50x50.jpg?v=1624704940",
@@ -121,7 +121,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-alphonso-mangoes-1-2-pc",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-alphonso-mangoes-1-2-pc",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/MangoCover_908c34e6-fcdb-4564-918e-48d7baeaf628_50x50.jpg?v=1645445684",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-alphonso-mangoes-1-2-pc",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/IMG_20210317_215426.015_f44c9d91-b9fa-4f5e-a6c2-640ff9614f0c_50x50.jpg?v=1645445684",
@@ -136,7 +136,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-kesar-mangoes",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-kesar-mangoes",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cover-Mango_5fc755ae-5f58-4127-b1f9-30bceaa56e3d_50x50.jpg?v=1620127827",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-kesar-mangoes",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/unnamed-_6_50x50.jpg?v=1620127827",
@@ -151,7 +151,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-plums",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-plums",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Indian-Plum_50x50.jpg?v=1627642547",
           "hover-img href": "",
           "lazyload src": "",
@@ -166,7 +166,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/copy-of-kimaye-peach-5-pcs",
+          "image": "https://kimaye.com/collections/all-fruits/products/copy-of-kimaye-peach-5-pcs",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/donut-peach-cover_283a2dee-ca84-496b-b3da-930c2fc61e72_50x50.jpg?v=1647001648",
           "hover-img href": "",
           "lazyload src": "",
@@ -181,7 +181,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-muskmelon-1-pc",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-muskmelon-1-pc",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Muskmelon-cover_50x50.jpg?v=1633763200",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-muskmelon-1-pc",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Muskmelon-funfacts_50x50.png?v=1633763213",
@@ -196,7 +196,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-papaya-1-pc",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-papaya-1-pc",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Papaya-cover_50x50.jpg?v=1638875170",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-papaya-1-pc",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Papaya-funfacts_50x50.png?v=1638875170",
@@ -211,7 +211,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-safeda-mangoes-pack-of-3pcs",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-safeda-mangoes-pack-of-3pcs",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-safeda-mangoes-pack-of-3pcs",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Mangoes-safeda_50x50.jpg?v=1649143538",
@@ -226,7 +226,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Capture_33f23705-06dd-43c2-87ba-9e68d63d99b8_50x50.png?v=1649143538"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-summer-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-summer-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/MicrosoftTeams-image_1_50x50.jpg?v=1649415923",
           "hover-img href": "",
           "lazyload src": "",
@@ -241,7 +241,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-badami-mangoes",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-badami-mangoes",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cover-Mango-badami_50x50.jpg?v=1620473077",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-badami-mangoes",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Optimized-promisebadami_50x50.jpg?v=1620473077",
@@ -256,7 +256,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-black-red-grapes-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-black-red-grapes-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/FL-Sharad_Combo_50x50.png?v=1652163520",
           "hover-img href": "",
           "lazyload src": "",
@@ -271,7 +271,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-watermelon-1-pc",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-watermelon-1-pc",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cover_19473cce-96ae-4149-aaa1-508f17ac6c28_50x50.jpg?v=1648186636",
           "hover-img href": "",
           "lazyload src": "",
@@ -286,7 +286,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/avocado-imported-by-kimaye",
+          "image": "https://kimaye.com/collections/all-fruits/products/avocado-imported-by-kimaye",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/avocado-imported-by-kimaye",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/MicrosoftTeams-image_5_50x50.jpg?v=1652191066",
@@ -301,7 +301,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Avocado_50x50.jpg?v=1652191066"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-green-apples-pack-of-2-pc-4-pc",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-green-apples-pack-of-2-pc-4-pc",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-green-apples-pack-of-2-pc-4-pc",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/funfacts_50x50.png?v=1647932797",
@@ -316,7 +316,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cover_50x50.jpg?v=1647932788"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-mini-oranges-6-pcs",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-mini-oranges-6-pcs",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-mini-oranges-6-pcs",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Mini-oranges_7fb0f63d-eac2-4fcb-9a5d-cdc7f39e5ae9_50x50.png?v=1649913612",
@@ -331,7 +331,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Mini-Oranges-cover_bbce1a6a-4ab6-4a62-8928-3a956ed7b8cf_50x50.jpg?v=1649913612"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/blueberries-by-kimaye",
+          "image": "https://kimaye.com/collections/all-fruits/products/blueberries-by-kimaye",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/blueberries-by-kimaye",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_4fef1fe4-8a60-4abc-ae2f-9ac5ce82d2e7-min_50x50.jpg?v=1614325208",
@@ -346,7 +346,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/5e8b2ee6-ce8e-42e9-959f-d43c544f586a_50x50.png?v=1616326949"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-sapota-6-pcs",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-sapota-6-pcs",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-sapota-6-pcs",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Chiku-funfacts_b2cf9e47-e330-44d6-867c-306ba7096288_50x50.png?v=1646830426",
@@ -361,7 +361,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Chiku-cover_7b7702b6-dbf6-4d51-aabd-70df2f5e4195_50x50.jpg?v=1646830414"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-pear-green",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-pear-green",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-pear-green",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_5a546d70-20e4-4691-a126-2c41e8cd30a5-min_50x50.jpg?v=1614326370",
@@ -376,7 +376,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/463b5516-614a-4a66-9556-f4a09e45afbc_50x50.png?v=1614326370"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-imported-oranges",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-imported-oranges",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-imported-oranges",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_bb9ad122-e202-4021-8629-86e6220a06a6-min_50x50.jpg?v=1614325957",
@@ -391,7 +391,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/a0cfceb5-76a4-4994-9d37-978c6dc3b309_50x50.png?v=1611811512"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-royal-gala-apples-pack-of-2-4",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-royal-gala-apples-pack-of-2-4",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-royal-gala-apples-pack-of-2-4",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/royal-gala-apple-cover_50x50.jpg?v=1643012816",
@@ -406,7 +406,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Royal-Gala-Funfacts_50x50.png?v=1643012862"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/variety-flame-seedless-grapes-500-g",
+          "image": "https://kimaye.com/collections/all-fruits/products/variety-flame-seedless-grapes-500-g",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/variety-flame-seedless-grapes-500-g",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Optimized-4-carousel-promise-FlameSeedless-min_50x50.jpg?v=1616393545",
@@ -421,7 +421,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/069bdaa3-eca4-4f4c-8f02-970a626f7be3_50x50.png?v=1616393545"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/variety-jumbo-seedless",
+          "image": "https://kimaye.com/collections/all-fruits/products/variety-jumbo-seedless",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/variety-jumbo-seedless",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Optimized-JumboSeedlesspromise-min_50x50.jpg?v=1614859367",
@@ -436,7 +436,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/dbe751de-009c-4454-a3f1-42375be8bb15_50x50.png?v=1614859367"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-green-black-grape-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-green-black-grape-combo",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Grapescombo_50x50.png?v=1641883595",
@@ -451,7 +451,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-grapes-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-grapes-combo",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Grapescombo_1_50x50.png?v=1642492575",
@@ -466,7 +466,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-red-grapes-blueberries-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-red-grapes-blueberries-combo",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Untitled_50x50.jpg?v=1617288478",
@@ -481,7 +481,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-blueberry-grapes-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-blueberry-grapes-combo",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/GPS-BB_50x50.png?v=1642492910",
@@ -496,7 +496,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-grapefruit-pack-of-3-6",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-grapefruit-pack-of-3-6",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-grapefruit-pack-of-3-6",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/grapefruit-funfacts_50x50.png?v=1639461506",
@@ -511,7 +511,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/grapefruit-cover_50x50.jpg?v=1639461484"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-dragon-fruit-1-pc-0-40-0-45-kg",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-dragon-fruit-1-pc-0-40-0-45-kg",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "",
@@ -526,7 +526,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/dragon-fruit--white-cover_50x50.jpg?v=1632470660"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-sun-melon",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-sun-melon",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-sun-melon",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/sun-melon-carousel-promise_50x50.jpg?v=1620314805",
@@ -541,7 +541,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cover-sun-melon_50x50.jpg?v=1620314805"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-washington-apples-pack-of-2-4",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-washington-apples-pack-of-2-4",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-washington-apples-pack-of-2-4",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_dc6a321c-3ae4-45fb-874f-c5937d9c4c48-min_50x50.jpg?v=1641449752",
@@ -556,7 +556,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/washington-applecover_50x50.jpg?v=1641449752"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-golden-kiwis-3-pcs-300-g",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-golden-kiwis-3-pcs-300-g",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-golden-kiwis-3-pcs-300-g",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Gold-kiwi-caro-promise_50x50.jpg?v=1624374893",
@@ -571,7 +571,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/golden-kiwi-cover_50x50.jpg?v=1625147312"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/variety-red-globe-seeded-350g",
+          "image": "https://kimaye.com/collections/all-fruits/products/variety-red-globe-seeded-350g",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/variety-red-globe-seeded-350g",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2-carousel-nutrition-red_10bf1647-740b-49e1-bd3f-6fe45312c3eb-min_50x50.jpg?v=1614328348",
@@ -586,7 +586,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/bd07b8e7-3643-4a98-996e-c85fd7d133a8_50x50.png?v=1614765886"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-thai-guava",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-thai-guava",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-thai-guava",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/CopyofGuava_Promise_NoHyphen_a9e1ac13-5a37-47fb-98d2-dc4386696da8_50x50.png?v=1606116700",
@@ -601,7 +601,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/CopyofGuava_Main_Clean_50x50.png?v=1606828311"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-bananas-robusta",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-bananas-robusta",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-bananas-robusta",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_1b3ed574-7a92-4364-85ef-7525411ecd26-min_50x50.jpg?v=1614324760",
@@ -616,7 +616,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/1_3311b3de-1a38-4175-8e8c-ac9577ec85df-min_50x50.jpg?v=1614324760"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-premium-pomegranate",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-premium-pomegranate",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-premium-pomegranate",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_2cc22b6d-b62a-424c-a49a-b5c354cc574a-min_50x50.jpg?v=1614326590",
@@ -631,7 +631,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/221f2788-1a08-45ae-bdaf-7432d7ea0156_50x50.png?v=1614326590"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kiwis-by-kimaye",
+          "image": "https://kimaye.com/collections/all-fruits/products/kiwis-by-kimaye",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kiwis-by-kimaye",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_92edd93a-1a6d-49ff-8f5d-0b57649417e8-min_50x50.jpg?v=1614326164",
@@ -646,7 +646,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/1_6875ada8-f1e6-4589-b1fd-6f13a86b8ddb-min_50x50.jpg?v=1614326164"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-arils-coco-cup",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-arils-coco-cup",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "",
@@ -661,7 +661,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/62cef687-de59-4f5a-acf3-4df1238c3e29-min_50x50.png?v=1614324446"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-mosambi",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-mosambi",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-mosambi",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/CopyofMosmabi_KimayePromise_FInal_1_f38849e8-f1c7-4e80-ba37-e82d18dd64c0-min_50x50.png?v=1614327055",
@@ -676,7 +676,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/CopyofMosambi_Main_FixedShadows-min_50x50.png?v=1614327057"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-yelakki-banana-pack-of-250g-500g-1kg",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-yelakki-banana-pack-of-250g-500g-1kg",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-yelakki-banana-pack-of-250g-500g-1kg",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Yelakki-Banana-promise_52270ec2-50aa-4029-83eb-b8921e5a3960_50x50.jpg?v=1627026412",
@@ -691,7 +691,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Yelakki-banana-cover_bc79dea2-08f8-404b-99f5-327a91213fbb_50x50.jpg?v=1627026370"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/pomegranate-seeds-arils-cup",
+          "image": "https://kimaye.com/collections/all-fruits/products/pomegranate-seeds-arils-cup",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/pomegranate-seeds-arils-cup",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_7df5d693-5f5e-494b-bdf1-cac9cc44c8ef-min_50x50.jpg?v=1614327837",
@@ -706,7 +706,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/47dfb7d1-d8d3-4c96-bda9-7dc85dfdec51_50x50.png?v=1613364164"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/coconut-chunks-cup",
+          "image": "https://kimaye.com/collections/all-fruits/products/coconut-chunks-cup",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/coconut-chunks-cup",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_a0e90d79-5ba8-4b40-87b4-07e47546c339-min_50x50.jpg?v=1614323572",
@@ -721,7 +721,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/24d0f9c9-fe83-40a3-84ab-300e73e4ff8d_50x50.png?v=1611811511"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/grated-coconut-punnet",
+          "image": "https://kimaye.com/collections/all-fruits/products/grated-coconut-punnet",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/grated-coconut-punnet",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_5461f787-b41d-47cb-a3dd-cbfcf069498f-min_50x50.jpg?v=1614324314",
@@ -736,7 +736,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/0fce7fd6-f30e-45df-8c52-234acbd62023_50x50.png?v=1611811509"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-plum-5-6-pcs-450-g-to-500-g",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-plum-5-6-pcs-450-g-to-500-g",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "",
@@ -751,7 +751,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Picture3_3cf8f5aa-4155-4a94-9768-9819bb41835f_50x50.jpg?v=1641381097"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-wholesome-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-wholesome-combo",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "",
@@ -766,7 +766,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Wholesome-combo_50x50.jpg?v=1618497683"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-kiwi-blueberries-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-kiwi-blueberries-combo",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "",
@@ -781,7 +781,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/KiwiBlueberry_50x50.png?v=1617983685"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-strength",
+          "image": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-strength",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-strength",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A7793_50x50.jpg?v=1631346990",
@@ -796,7 +796,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A7790_50x50.jpg?v=1631346990"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-cherish",
+          "image": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-cherish",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-cherish",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A7815_50x50.jpg?v=1631351171",
@@ -811,7 +811,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A7821_50x50.jpg?v=1631350656"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-adore",
+          "image": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-adore",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-adore",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A6078_a7a0fc18-3fa7-4558-8b44-5823af636aec_50x50.jpg?v=1631347574",
@@ -826,7 +826,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A7807_50x50.jpg?v=1631347621"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/variety-sharad-seedless",
+          "image": "https://kimaye.com/collections/all-fruits/products/variety-sharad-seedless",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/variety-sharad-seedless",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Optimized-JumboSeedlesspromise_56ba6fd1-b63e-4c19-abc6-883a8cdeb0dd-min_50x50.jpg?v=1615017122",
@@ -841,7 +841,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/b2fdf9f3-93a9-4ae2-bd80-bfaf63af08d9_50x50.png?v=1615017122"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-seasonal",
+          "image": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-seasonal",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-seasonal",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/I8A9403copy_50x50.jpg?v=1651844116",
@@ -860,7 +860,7 @@
       "freshcuts":
       [
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-dusheri-mangoes-pack-of-3-6-12",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-dusheri-mangoes-pack-of-3-6-12",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Dasheri_50x50.jpg?v=1623855977",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-dusheri-mangoes-pack-of-3-6-12",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Dasheri-carousel-promise---Copy_50x50.jpg?v=1623928012",
@@ -875,7 +875,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-cherry-blueberry-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-cherry-blueberry-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Cherry--_-blueberry_50x50.jpg?v=1654851019",
           "hover-img href": "",
           "lazyload src": "",
@@ -890,7 +890,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-litchi-500-g",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-litchi-500-g",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Lychee_50x50.jpg?v=1622208039",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-litchi-500-g",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Litchi-promise_50x50.jpg?v=1622279651",
@@ -905,7 +905,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-kaala-jamun",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-kaala-jamun",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/image_50x50.jpg?v=1620889338",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-kaala-jamun",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Jamun-promise_50x50.jpg?v=1620889338",
@@ -920,7 +920,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-fresh-dates-pack-of-250g-500g",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-fresh-dates-pack-of-250g-500g",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Date_d427b5d6-08d3-4f16-8220-a7d3409bbaed_50x50.jpg?v=1624886493",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-fresh-dates-pack-of-250g-500g",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Dates-Promise_50x50.jpg?v=1624887726",
@@ -935,7 +935,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-cherry-250g",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-cherry-250g",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Cherry-cover_29fec80d-0bed-4148-808c-0707021b5db3_50x50.jpg?v=1625033744",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-cherry-250g",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Cherry-Promise_50x50.jpg?v=1625033752",
@@ -950,7 +950,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-honeydew-melin-1-pc",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-honeydew-melin-1-pc",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/HoneydewMeloncover_50x50.jpg?v=1654761963",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-honeydew-melin-1-pc",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/funfacts_59df1b67-ac68-42bf-86c8-e7ef069d1660_50x50.png?v=1654775793",
@@ -965,7 +965,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-apricots",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-apricots",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Apricot-cover_50x50.jpg?v=1624704940",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-apricots",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/image_2eb3bdea-2b3b-487d-b2d3-549f76451461_50x50.jpg?v=1624704940",
@@ -980,7 +980,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-alphonso-mangoes-1-2-pc",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-alphonso-mangoes-1-2-pc",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/MangoCover_908c34e6-fcdb-4564-918e-48d7baeaf628_50x50.jpg?v=1645445684",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-alphonso-mangoes-1-2-pc",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/IMG_20210317_215426.015_f44c9d91-b9fa-4f5e-a6c2-640ff9614f0c_50x50.jpg?v=1645445684",
@@ -995,7 +995,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-kesar-mangoes",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-kesar-mangoes",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cover-Mango_5fc755ae-5f58-4127-b1f9-30bceaa56e3d_50x50.jpg?v=1620127827",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-kesar-mangoes",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/unnamed-_6_50x50.jpg?v=1620127827",
@@ -1010,7 +1010,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-plums",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-plums",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Indian-Plum_50x50.jpg?v=1627642547",
           "hover-img href": "",
           "lazyload src": "",
@@ -1025,7 +1025,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/copy-of-kimaye-peach-5-pcs",
+          "image": "https://kimaye.com/collections/all-fruits/products/copy-of-kimaye-peach-5-pcs",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/donut-peach-cover_283a2dee-ca84-496b-b3da-930c2fc61e72_50x50.jpg?v=1647001648",
           "hover-img href": "",
           "lazyload src": "",
@@ -1040,7 +1040,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-muskmelon-1-pc",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-muskmelon-1-pc",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Muskmelon-cover_50x50.jpg?v=1633763200",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-muskmelon-1-pc",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Muskmelon-funfacts_50x50.png?v=1633763213",
@@ -1055,7 +1055,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-papaya-1-pc",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-papaya-1-pc",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Papaya-cover_50x50.jpg?v=1638875170",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-papaya-1-pc",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Papaya-funfacts_50x50.png?v=1638875170",
@@ -1070,7 +1070,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-safeda-mangoes-pack-of-3pcs",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-safeda-mangoes-pack-of-3pcs",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-safeda-mangoes-pack-of-3pcs",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Mangoes-safeda_50x50.jpg?v=1649143538",
@@ -1085,7 +1085,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Capture_33f23705-06dd-43c2-87ba-9e68d63d99b8_50x50.png?v=1649143538"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-summer-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-summer-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/MicrosoftTeams-image_1_50x50.jpg?v=1649415923",
           "hover-img href": "",
           "lazyload src": "",
@@ -1100,7 +1100,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-badami-mangoes",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-badami-mangoes",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cover-Mango-badami_50x50.jpg?v=1620473077",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-badami-mangoes",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Optimized-promisebadami_50x50.jpg?v=1620473077",
@@ -1115,7 +1115,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-black-red-grapes-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-black-red-grapes-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/FL-Sharad_Combo_50x50.png?v=1652163520",
           "hover-img href": "",
           "lazyload src": "",
@@ -1130,7 +1130,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-watermelon-1-pc",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-watermelon-1-pc",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cover_19473cce-96ae-4149-aaa1-508f17ac6c28_50x50.jpg?v=1648186636",
           "hover-img href": "",
           "lazyload src": "",
@@ -1145,7 +1145,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/avocado-imported-by-kimaye",
+          "image": "https://kimaye.com/collections/all-fruits/products/avocado-imported-by-kimaye",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/avocado-imported-by-kimaye",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/MicrosoftTeams-image_5_50x50.jpg?v=1652191066",
@@ -1160,7 +1160,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Avocado_50x50.jpg?v=1652191066"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-green-apples-pack-of-2-pc-4-pc",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-green-apples-pack-of-2-pc-4-pc",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-green-apples-pack-of-2-pc-4-pc",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/funfacts_50x50.png?v=1647932797",
@@ -1175,7 +1175,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cover_50x50.jpg?v=1647932788"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-mini-oranges-6-pcs",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-mini-oranges-6-pcs",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-mini-oranges-6-pcs",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Mini-oranges_7fb0f63d-eac2-4fcb-9a5d-cdc7f39e5ae9_50x50.png?v=1649913612",
@@ -1190,7 +1190,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Mini-Oranges-cover_bbce1a6a-4ab6-4a62-8928-3a956ed7b8cf_50x50.jpg?v=1649913612"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/blueberries-by-kimaye",
+          "image": "https://kimaye.com/collections/all-fruits/products/blueberries-by-kimaye",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/blueberries-by-kimaye",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_4fef1fe4-8a60-4abc-ae2f-9ac5ce82d2e7-min_50x50.jpg?v=1614325208",
@@ -1205,7 +1205,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/5e8b2ee6-ce8e-42e9-959f-d43c544f586a_50x50.png?v=1616326949"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-sapota-6-pcs",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-sapota-6-pcs",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-sapota-6-pcs",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Chiku-funfacts_b2cf9e47-e330-44d6-867c-306ba7096288_50x50.png?v=1646830426",
@@ -1220,7 +1220,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Chiku-cover_7b7702b6-dbf6-4d51-aabd-70df2f5e4195_50x50.jpg?v=1646830414"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-pear-green",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-pear-green",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-pear-green",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_5a546d70-20e4-4691-a126-2c41e8cd30a5-min_50x50.jpg?v=1614326370",
@@ -1235,7 +1235,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/463b5516-614a-4a66-9556-f4a09e45afbc_50x50.png?v=1614326370"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-imported-oranges",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-imported-oranges",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-imported-oranges",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_bb9ad122-e202-4021-8629-86e6220a06a6-min_50x50.jpg?v=1614325957",
@@ -1250,7 +1250,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/a0cfceb5-76a4-4994-9d37-978c6dc3b309_50x50.png?v=1611811512"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-royal-gala-apples-pack-of-2-4",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-royal-gala-apples-pack-of-2-4",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-royal-gala-apples-pack-of-2-4",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/royal-gala-apple-cover_50x50.jpg?v=1643012816",
@@ -1265,7 +1265,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Royal-Gala-Funfacts_50x50.png?v=1643012862"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/variety-flame-seedless-grapes-500-g",
+          "image": "https://kimaye.com/collections/all-fruits/products/variety-flame-seedless-grapes-500-g",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/variety-flame-seedless-grapes-500-g",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Optimized-4-carousel-promise-FlameSeedless-min_50x50.jpg?v=1616393545",
@@ -1280,7 +1280,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/069bdaa3-eca4-4f4c-8f02-970a626f7be3_50x50.png?v=1616393545"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/variety-jumbo-seedless",
+          "image": "https://kimaye.com/collections/all-fruits/products/variety-jumbo-seedless",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/variety-jumbo-seedless",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Optimized-JumboSeedlesspromise-min_50x50.jpg?v=1614859367",
@@ -1295,7 +1295,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/dbe751de-009c-4454-a3f1-42375be8bb15_50x50.png?v=1614859367"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-green-black-grape-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-green-black-grape-combo",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Grapescombo_50x50.png?v=1641883595",
@@ -1310,7 +1310,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-grapes-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-grapes-combo",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Grapescombo_1_50x50.png?v=1642492575",
@@ -1325,7 +1325,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-red-grapes-blueberries-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-red-grapes-blueberries-combo",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Untitled_50x50.jpg?v=1617288478",
@@ -1340,7 +1340,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-blueberry-grapes-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-blueberry-grapes-combo",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/GPS-BB_50x50.png?v=1642492910",
@@ -1355,7 +1355,7 @@
           "lazyload src 2": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-grapefruit-pack-of-3-6",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-grapefruit-pack-of-3-6",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-grapefruit-pack-of-3-6",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/grapefruit-funfacts_50x50.png?v=1639461506",
@@ -1370,7 +1370,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/grapefruit-cover_50x50.jpg?v=1639461484"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-dragon-fruit-1-pc-0-40-0-45-kg",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-dragon-fruit-1-pc-0-40-0-45-kg",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "",
@@ -1385,7 +1385,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/dragon-fruit--white-cover_50x50.jpg?v=1632470660"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-sun-melon",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-sun-melon",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-sun-melon",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/sun-melon-carousel-promise_50x50.jpg?v=1620314805",
@@ -1400,7 +1400,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/cover-sun-melon_50x50.jpg?v=1620314805"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-washington-apples-pack-of-2-4",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-washington-apples-pack-of-2-4",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-washington-apples-pack-of-2-4",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_dc6a321c-3ae4-45fb-874f-c5937d9c4c48-min_50x50.jpg?v=1641449752",
@@ -1415,7 +1415,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/washington-applecover_50x50.jpg?v=1641449752"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-golden-kiwis-3-pcs-300-g",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-golden-kiwis-3-pcs-300-g",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-golden-kiwis-3-pcs-300-g",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Gold-kiwi-caro-promise_50x50.jpg?v=1624374893",
@@ -1430,7 +1430,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/golden-kiwi-cover_50x50.jpg?v=1625147312"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/variety-red-globe-seeded-350g",
+          "image": "https://kimaye.com/collections/all-fruits/products/variety-red-globe-seeded-350g",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/variety-red-globe-seeded-350g",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2-carousel-nutrition-red_10bf1647-740b-49e1-bd3f-6fe45312c3eb-min_50x50.jpg?v=1614328348",
@@ -1445,7 +1445,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/bd07b8e7-3643-4a98-996e-c85fd7d133a8_50x50.png?v=1614765886"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-thai-guava",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-thai-guava",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-thai-guava",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/CopyofGuava_Promise_NoHyphen_a9e1ac13-5a37-47fb-98d2-dc4386696da8_50x50.png?v=1606116700",
@@ -1460,7 +1460,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/CopyofGuava_Main_Clean_50x50.png?v=1606828311"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-bananas-robusta",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-bananas-robusta",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-bananas-robusta",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_1b3ed574-7a92-4364-85ef-7525411ecd26-min_50x50.jpg?v=1614324760",
@@ -1475,7 +1475,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/1_3311b3de-1a38-4175-8e8c-ac9577ec85df-min_50x50.jpg?v=1614324760"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-premium-pomegranate",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-premium-pomegranate",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-premium-pomegranate",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_2cc22b6d-b62a-424c-a49a-b5c354cc574a-min_50x50.jpg?v=1614326590",
@@ -1490,7 +1490,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/221f2788-1a08-45ae-bdaf-7432d7ea0156_50x50.png?v=1614326590"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kiwis-by-kimaye",
+          "image": "https://kimaye.com/collections/all-fruits/products/kiwis-by-kimaye",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kiwis-by-kimaye",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_92edd93a-1a6d-49ff-8f5d-0b57649417e8-min_50x50.jpg?v=1614326164",
@@ -1505,7 +1505,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/1_6875ada8-f1e6-4589-b1fd-6f13a86b8ddb-min_50x50.jpg?v=1614326164"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-arils-coco-cup",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-arils-coco-cup",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "",
@@ -1520,7 +1520,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/62cef687-de59-4f5a-acf3-4df1238c3e29-min_50x50.png?v=1614324446"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-mosambi",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-mosambi",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-mosambi",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/CopyofMosmabi_KimayePromise_FInal_1_f38849e8-f1c7-4e80-ba37-e82d18dd64c0-min_50x50.png?v=1614327055",
@@ -1535,7 +1535,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/CopyofMosambi_Main_FixedShadows-min_50x50.png?v=1614327057"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-yelakki-banana-pack-of-250g-500g-1kg",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-yelakki-banana-pack-of-250g-500g-1kg",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/kimaye-yelakki-banana-pack-of-250g-500g-1kg",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Yelakki-Banana-promise_52270ec2-50aa-4029-83eb-b8921e5a3960_50x50.jpg?v=1627026412",
@@ -1550,7 +1550,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Yelakki-banana-cover_bc79dea2-08f8-404b-99f5-327a91213fbb_50x50.jpg?v=1627026370"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/pomegranate-seeds-arils-cup",
+          "image": "https://kimaye.com/collections/all-fruits/products/pomegranate-seeds-arils-cup",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/pomegranate-seeds-arils-cup",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_7df5d693-5f5e-494b-bdf1-cac9cc44c8ef-min_50x50.jpg?v=1614327837",
@@ -1565,7 +1565,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/47dfb7d1-d8d3-4c96-bda9-7dc85dfdec51_50x50.png?v=1613364164"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/coconut-chunks-cup",
+          "image": "https://kimaye.com/collections/all-fruits/products/coconut-chunks-cup",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/coconut-chunks-cup",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_a0e90d79-5ba8-4b40-87b4-07e47546c339-min_50x50.jpg?v=1614323572",
@@ -1580,7 +1580,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/24d0f9c9-fe83-40a3-84ab-300e73e4ff8d_50x50.png?v=1611811511"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/grated-coconut-punnet",
+          "image": "https://kimaye.com/collections/all-fruits/products/grated-coconut-punnet",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/grated-coconut-punnet",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2_5461f787-b41d-47cb-a3dd-cbfcf069498f-min_50x50.jpg?v=1614324314",
@@ -1595,7 +1595,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/0fce7fd6-f30e-45df-8c52-234acbd62023_50x50.png?v=1611811509"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-plum-5-6-pcs-450-g-to-500-g",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-plum-5-6-pcs-450-g-to-500-g",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "",
@@ -1610,7 +1610,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Picture3_3cf8f5aa-4155-4a94-9768-9819bb41835f_50x50.jpg?v=1641381097"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-wholesome-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-wholesome-combo",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "",
@@ -1625,7 +1625,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Wholesome-combo_50x50.jpg?v=1618497683"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/kimaye-kiwi-blueberries-combo",
+          "image": "https://kimaye.com/collections/all-fruits/products/kimaye-kiwi-blueberries-combo",
           "attachment-shop_catalog src": "",
           "hover-img href": "",
           "lazyload src": "",
@@ -1640,7 +1640,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/KiwiBlueberry_50x50.png?v=1617983685"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-strength",
+          "image": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-strength",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-strength",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A7793_50x50.jpg?v=1631346990",
@@ -1655,7 +1655,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A7790_50x50.jpg?v=1631346990"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-cherish",
+          "image": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-cherish",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-cherish",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A7815_50x50.jpg?v=1631351171",
@@ -1670,7 +1670,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A7821_50x50.jpg?v=1631350656"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-adore",
+          "image": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-adore",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-adore",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A6078_a7a0fc18-3fa7-4558-8b44-5823af636aec_50x50.jpg?v=1631347574",
@@ -1685,7 +1685,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/2I8A7807_50x50.jpg?v=1631347621"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/variety-sharad-seedless",
+          "image": "https://kimaye.com/collections/all-fruits/products/variety-sharad-seedless",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/variety-sharad-seedless",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Optimized-JumboSeedlesspromise_56ba6fd1-b63e-4c19-abc6-883a8cdeb0dd-min_50x50.jpg?v=1615017122",
@@ -1700,7 +1700,7 @@
           "lazyload src 2": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/b2fdf9f3-93a9-4ae2-bd80-bfaf63af08d9_50x50.png?v=1615017122"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-seasonal",
+          "image": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-seasonal",
           "attachment-shop_catalog src": "",
           "hover-img href": "https://kimaye.com/collections/all-fruits/products/fruit-box-by-kimaye-seasonal",
           "lazyload src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/I8A9403copy_50x50.jpg?v=1651844116",
@@ -1719,7 +1719,7 @@
       "fruitcombos":
       [
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-litchi-kesar-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-litchi-kesar-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/litchi--_-keasr_50x50.jpg?v=1654850892",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1732,7 +1732,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-cherry-blueberry-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-cherry-blueberry-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Cherry--_-blueberry_50x50.jpg?v=1654851019",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1745,7 +1745,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-litchi-peach-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-litchi-peach-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/peach--_-litchi_50x50.jpg?v=1654850921",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1758,7 +1758,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-plum-peach-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-plum-peach-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/peach--_-Plum_50x50.jpg?v=1654851067",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1771,7 +1771,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-plum-blueberries-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-plum-blueberries-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Plum_BB_50x50.jpg?v=1621068661",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1784,7 +1784,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-kesar-blueberries-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-kesar-blueberries-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Kesar_BB_50x50.jpg?v=1623393336",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1797,7 +1797,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-alphonso-blueberries-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-alphonso-blueberries-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/MangoBlueberry_1_50x50.png?v=1618035441",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1810,7 +1810,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-red-grapes-blueberries-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-red-grapes-blueberries-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Untitled_50x50.jpg?v=1617288478",
           "btn-quick-shop href": "",
           "btn-quick-shop": "",
@@ -1823,7 +1823,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-black-red-grapes-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-black-red-grapes-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/FL-Sharad_Combo_50x50.png?v=1652163520",
           "btn-quick-shop href": "",
           "btn-quick-shop": "",
@@ -1836,7 +1836,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-summer-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-summer-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/MicrosoftTeams-image_1_50x50.jpg?v=1649415923",
           "btn-quick-shop href": "",
           "btn-quick-shop": "",
@@ -1849,7 +1849,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-wholesome-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-wholesome-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Wholesome-combo_50x50.jpg?v=1618497683",
           "btn-quick-shop href": "",
           "btn-quick-shop": "",
@@ -1862,7 +1862,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-grapes-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-grapes-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Grapescombo_1_50x50.png?v=1642492575",
           "btn-quick-shop href": "",
           "btn-quick-shop": "",
@@ -1875,7 +1875,7 @@
           "out-of-stock": "Sold out"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-blueberry-grapes-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-blueberry-grapes-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/GPS-BB_50x50.png?v=1642492910",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1888,7 +1888,7 @@
           "out-of-stock": "Sold out"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-kiwi-blueberries-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-kiwi-blueberries-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/KiwiBlueberry_50x50.png?v=1617983685",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1901,7 +1901,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-green-black-grape-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-green-black-grape-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Grapescombo_50x50.png?v=1641883595",
           "btn-quick-shop href": "",
           "btn-quick-shop": "",
@@ -1918,7 +1918,7 @@
       "giftsbykimaye":
       [
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-litchi-kesar-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-litchi-kesar-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/litchi--_-keasr_50x50.jpg?v=1654850892",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1931,7 +1931,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-cherry-blueberry-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-cherry-blueberry-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Cherry--_-blueberry_50x50.jpg?v=1654851019",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1944,7 +1944,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-litchi-peach-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-litchi-peach-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/peach--_-litchi_50x50.jpg?v=1654850921",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1957,7 +1957,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-plum-peach-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-plum-peach-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/peach--_-Plum_50x50.jpg?v=1654851067",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1970,7 +1970,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-plum-blueberries-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-plum-blueberries-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Plum_BB_50x50.jpg?v=1621068661",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1983,7 +1983,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-kesar-blueberries-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-kesar-blueberries-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Kesar_BB_50x50.jpg?v=1623393336",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -1996,7 +1996,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-alphonso-blueberries-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-alphonso-blueberries-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/MangoBlueberry_1_50x50.png?v=1618035441",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -2009,7 +2009,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-red-grapes-blueberries-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-red-grapes-blueberries-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Untitled_50x50.jpg?v=1617288478",
           "btn-quick-shop href": "",
           "btn-quick-shop": "",
@@ -2022,7 +2022,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-black-red-grapes-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-black-red-grapes-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/FL-Sharad_Combo_50x50.png?v=1652163520",
           "btn-quick-shop href": "",
           "btn-quick-shop": "",
@@ -2035,7 +2035,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-summer-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-summer-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/MicrosoftTeams-image_1_50x50.jpg?v=1649415923",
           "btn-quick-shop href": "",
           "btn-quick-shop": "",
@@ -2048,7 +2048,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-wholesome-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-wholesome-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Wholesome-combo_50x50.jpg?v=1618497683",
           "btn-quick-shop href": "",
           "btn-quick-shop": "",
@@ -2061,7 +2061,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-grapes-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-grapes-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Grapescombo_1_50x50.png?v=1642492575",
           "btn-quick-shop href": "",
           "btn-quick-shop": "",
@@ -2074,7 +2074,7 @@
           "out-of-stock": "Sold out"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-blueberry-grapes-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-blueberry-grapes-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/GPS-BB_50x50.png?v=1642492910",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -2087,7 +2087,7 @@
           "out-of-stock": "Sold out"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-kiwi-blueberries-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-kiwi-blueberries-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/KiwiBlueberry_50x50.png?v=1617983685",
           "btn-quick-shop href": "https://kimaye.com/collections/javascript%20void(0);",
           "btn-quick-shop": "Quick Shop",
@@ -2100,7 +2100,7 @@
           "out-of-stock": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/combo-fruits/products/kimaye-green-black-grape-combo",
+          "image": "https://kimaye.com/collections/combo-fruits/products/kimaye-green-black-grape-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Grapescombo_50x50.png?v=1641883595",
           "btn-quick-shop href": "",
           "btn-quick-shop": "",
@@ -2117,7 +2117,7 @@
       [
  
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/grape-family-by-kimaye/products/kimaye-red-grapes-blueberries-combo",
+          "image": "https://kimaye.com/collections/grape-family-by-kimaye/products/kimaye-red-grapes-blueberries-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Untitled_50x50.jpg?v=1617288478",
           "onsale": "Value Pack",
           "button": "Add to cart",
@@ -2133,7 +2133,7 @@
           "quik-buy": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/grape-family-by-kimaye/products/kimaye-grapes-combo",
+          "image": "https://kimaye.com/collections/grape-family-by-kimaye/products/kimaye-grapes-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Grapescombo_1_50x50.png?v=1642492575",
           "onsale": "Value Pack",
           "button": "Read more",
@@ -2149,7 +2149,7 @@
           "quik-buy": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/grape-family-by-kimaye/products/variety-sharad-seedless",
+          "image": "https://kimaye.com/collections/grape-family-by-kimaye/products/variety-sharad-seedless",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/b2fdf9f3-93a9-4ae2-bd80-bfaf63af08d9_50x50.png?v=1615017122",
           "onsale": "",
           "button": "",
@@ -2165,7 +2165,7 @@
           "quik-buy": "Choose Your Pack"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/grape-family-by-kimaye/products/variety-red-globe-seeded-350g",
+          "image": "https://kimaye.com/collections/grape-family-by-kimaye/products/variety-red-globe-seeded-350g",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/bd07b8e7-3643-4a98-996e-c85fd7d133a8_50x50.png?v=1614765886",
           "onsale": "",
           "button": "",
@@ -2181,7 +2181,7 @@
           "quik-buy": "Choose Your Pack"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/grape-family-by-kimaye/products/variety-jumbo-seedless",
+          "image": "https://kimaye.com/collections/grape-family-by-kimaye/products/variety-jumbo-seedless",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/dbe751de-009c-4454-a3f1-42375be8bb15_50x50.png?v=1614859367",
           "onsale": "",
           "button": "Add to cart",
@@ -2197,7 +2197,7 @@
           "quik-buy": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/grape-family-by-kimaye/products/variety-flame-seedless-grapes-500-g",
+          "image": "https://kimaye.com/collections/grape-family-by-kimaye/products/variety-flame-seedless-grapes-500-g",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/069bdaa3-eca4-4f4c-8f02-970a626f7be3_50x50.png?v=1616393545",
           "onsale": "",
           "button": "",
@@ -2213,7 +2213,7 @@
           "quik-buy": "Choose Your Pack"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/grape-family-by-kimaye/products/kimaye-blueberry-grapes-combo",
+          "image": "https://kimaye.com/collections/grape-family-by-kimaye/products/kimaye-blueberry-grapes-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/GPS-BB_50x50.png?v=1642492910",
           "onsale": "Value Pack",
           "button": "",
@@ -2229,7 +2229,7 @@
           "quik-buy": "Choose Your Pack"
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/grape-family-by-kimaye/products/kimaye-green-black-grape-combo",
+          "image": "https://kimaye.com/collections/grape-family-by-kimaye/products/kimaye-green-black-grape-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Grapescombo_50x50.png?v=1641883595",
           "onsale": "Value Pack",
           "button": "Read more",
@@ -2245,7 +2245,7 @@
           "quik-buy": ""
         },
         {
-          "jas-product-img-element href": "https://kimaye.com/collections/grape-family-by-kimaye/products/kimaye-black-red-grapes-combo",
+          "image": "https://kimaye.com/collections/grape-family-by-kimaye/products/kimaye-black-red-grapes-combo",
           "attachment-shop_catalog src": "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/FL-Sharad_Combo_50x50.png?v=1652163520",
           "onsale": "Value Pack",
           "button": "Add to cart",
