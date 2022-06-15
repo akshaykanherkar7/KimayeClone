@@ -55,7 +55,7 @@ margin-top: 8px;
 }
 .psstContainer{
     border: 1px solid;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     background-color:#f3f4ede0 ;
     border-color:#f3f4ede0 ;
 }
@@ -88,7 +88,7 @@ margin-top: 8px;
 
 .secretContainer{
     /* border: 1px solid red; */
-    margin-top: 70px;
+    /* margin-top: 70px; */
     background-color: #f3f4ede0;
     padding: 50px;
 }

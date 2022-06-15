@@ -370,6 +370,112 @@ const HomePage = () => {
         </div>
       </div>
 
+      {/* JAZZ IT UP WITH FRUITS */}
+      <div
+        style={{
+          border: "1px solid",
+          height: "auto",
+          backgroundColor: "#f6d153",
+          borderColor: "#f6d153",
+        }}
+      >
+        <div style={{ marginTop: "60px", marginBottom: "60px" }}>
+          <h1
+            style={{
+              textAlign: "center",
+              fontSize: "40px",
+              fontWeight: "bold",
+            }}
+          >
+            JAZZ IT UP WITH FRUITS
+          </h1>
+          <div>
+            <Carousel autoPlay>
+              <div
+                style={{
+                  display: "flex",
+                  // justifyContent: "space-evenly",
+                  justifyContent: "center",
+                  gap: "30px",
+                  // border: "1px solid",
+                  height: "380px",
+                  marginTop: "40px",
+                }}
+              >
+                <img
+                  style={{ width: "38%", borderRadius: "30px" }}
+                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/AdobeStock_334275008-2-opt2-1900px_720x.jpg?v=1627119119"
+                />
+                <img
+                  style={{ width: "38%", borderRadius: "30px" }}
+                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/AdobeStock_201343750_copy__66kb-1000px_720x.jpg?v=1626676701"
+                />
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  // justifyContent: "space-evenly",
+                  justifyContent: "center",
+                  gap: "30px",
+                  // border: "1px solid",
+                  height: "380px",
+                  marginTop: "40px",
+                }}
+              >
+                <img
+                  style={{ width: "38%", borderRadius: "30px" }}
+                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/AdobeStock_77286816-min__1625567830_114.143.85.97_720x.jpg?v=1625638895"
+                />
+                <img
+                  style={{ width: "38%", borderRadius: "30px" }}
+                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/Blog_-_Benefits_of_fruits_720x.jpg?v=1625147388"
+                />
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  // justifyContent: "space-evenly",
+                  justifyContent: "center",
+                  gap: "30px",
+                  // border: "1px solid",
+                  height: "380px",
+                  marginTop: "40px",
+                }}
+              >
+                <img
+                  style={{ width: "38%", borderRadius: "30px" }}
+                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/Untitled_design_51-min_720x.png?v=1614341965"
+                />
+                <img
+                  style={{ width: "38%", borderRadius: "30px" }}
+                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/immune_system_1728x-min_720x.jpg?v=1614342193"
+                />
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  // justifyContent: "space-evenly",
+                  justifyContent: "center",
+                  gap: "30px",
+                  // border: "1px solid",
+                  height: "380px",
+                  marginTop: "40px",
+                }}
+              >
+                <img
+                  style={{ width: "38%", borderRadius: "30px" }}
+                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/pomegranate-min_720x.jpg?v=1614342435"
+                />
+                <img
+                  style={{ width: "38%", borderRadius: "30px" }}
+                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/healthy_heart-min_720x.jpg?v=1614342271"
+                />
+              </div>
+            </Carousel>
+          </div>
+        </div>
+      </div>
+
       {/* PSST LOKIN FOR US  */}
       <div className={styles.psstContainer}>
         <h1>PSST… LOOKIN’ FOR US?</h1>
