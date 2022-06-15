@@ -47,7 +47,7 @@ const Navbar = () => {
           alignItems: "center",
           backgroundColor: "#f3f4ed",
           padding: "20px",
-        //   position: "fixed",
+          //   position: "fixed",
           top: "30",
           zIndex: "5",
           width: "100%",
@@ -60,11 +60,17 @@ const Navbar = () => {
               <ChevronDownIcon />
             </MenuButton>
             <MenuList>
-              <MenuItem>Download</MenuItem>
-              <MenuItem>Create a Copy</MenuItem>
-              <MenuItem>Mark as Draft</MenuItem>
-              <MenuItem>Delete</MenuItem>
+              <MenuItem>ALL FRUITS</MenuItem>
+              <MenuItem>FRESH CUTS</MenuItem>
+              <MenuItem>FRUIT COMBOS</MenuItem>
+              <MenuItem>GIFTS BY KIMAYE</MenuItem>
               <MenuItem>Attend a Workshop</MenuItem>
+              <MenuItem>GRAPE FAMILY BY KIMAYE</MenuItem>
+              <MenuItem>RETURN AND REPLACEMENT</MenuItem>
+              <MenuItem style={{ color: "lightgray" }}>
+                FRUITS X SUBSCRIPTION
+              </MenuItem>
+              <MenuItem>COMMUNITY BUYYING</MenuItem>
             </MenuList>
           </Menu>
           <Menu>
@@ -73,11 +79,10 @@ const Navbar = () => {
               <ChevronDownIcon />
             </MenuButton>
             <MenuList>
-              <MenuItem>Download</MenuItem>
-              <MenuItem>Create a Copy</MenuItem>
-              <MenuItem>Mark as Draft</MenuItem>
-              <MenuItem>Delete</MenuItem>
-              <MenuItem>Attend a Workshop</MenuItem>
+              <MenuItem>OUR STORY</MenuItem>
+              <MenuItem>WHY KIMAYE</MenuItem>
+              <MenuItem>TRACEABILITY</MenuItem>
+              <MenuItem>BEYOND FRUITS</MenuItem>
             </MenuList>
           </Menu>
           <Menu>
