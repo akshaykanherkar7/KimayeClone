@@ -6,7 +6,6 @@ const Footer = () => {
     <div>
       <div
         style={{
-          marginTop: "-24px",
           // border: "1px solid ",
           height: "280px",
           padding: "35px",
