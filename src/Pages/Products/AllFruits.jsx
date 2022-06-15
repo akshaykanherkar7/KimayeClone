@@ -1,9 +1,24 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getAllFruits } from "../../Store/Products/products.action";
 
 const AllFruits = () => {
-  return (
-    <div>AllFruits</div>
-  )
-}
+  const dispatch = useDispatch();
+  const { allfruits } = useSelector((state) => state.products);
+  //   console.log("allfruits:", allfruits);
 
-export default AllFruits
+  useEffect(() => {
+    dispatch(getAllFruits());
+  }, [dispatch]);
+
+  return (
+    <div>
+      AllFruits
+      {allfruits.map((el) => (
+        <div>{el.price}</div>
+      ))}
+    </div>
+  );
+};
+
+export default AllFruits;
