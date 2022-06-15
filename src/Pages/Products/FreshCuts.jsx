@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getFreshCuts } from "../../Store/Products/products.action";
 
 const FreshCuts = () => {
-  return (
-    <div>FreshCuts</div>
-  )
-}
+  const dispatch = useDispatch();
+  const { freshcuts } = useSelector((state) => state.products);
+//   console.log("freshcuts:", freshcuts);
 
-export default FreshCuts
+  useEffect(() => {
+    dispatch(getFreshCuts());
+  }, [dispatch]);
+  return <div>FreshCuts</div>;
+};
+
+export default FreshCuts;

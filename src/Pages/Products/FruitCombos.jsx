@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getFruitCombos } from "../../Store/Products/products.action";
 
 const FruitCombos = () => {
-  return (
-    <div>FruitCombos</div>
-  )
-}
+  const dispatch = useDispatch();
+  const { fruitcombos } = useSelector((state) => state.products);
+//   console.log("fruitcombos:", fruitcombos);
 
-export default FruitCombos
+  useEffect(() => {
+    dispatch(getFruitCombos());
+  }, [dispatch]);
+  return <div>FruitCombos</div>;
+};
+
+export default FruitCombos;
