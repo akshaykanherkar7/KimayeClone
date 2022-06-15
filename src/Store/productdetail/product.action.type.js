@@ -1,7 +1,5 @@
-import React from 'react'
 
-export const productactiontype = () => {
-  return (
-    <div>product.action.type</div>
-  )
-}
+
+
+export const GET_PRODUCT = "myproduct";
+
