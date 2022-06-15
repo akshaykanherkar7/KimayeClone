@@ -16,19 +16,19 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage></HomePage>} />
         <Route
-          path="collections/all-fruits"
+          path="/collections/all-fruits"
           element={<AllFruits></AllFruits>}
         ></Route>
         <Route
-          path="collections/fresh-cuts"
+          path="/collections/fresh-cuts"
           element={<FreshCuts></FreshCuts>}
         ></Route>
         <Route
-          path="collections/fruit-combos"
+          path="/collections/fruit-combos"
           element={<FruitCombos></FruitCombos>}
         ></Route>
         <Route
-          path="collections/gifts-by-kimaye"
+          path="/collections/gifts-by-kimaye"
           element={<GiftsByKimaye></GiftsByKimaye>}
         ></Route>
       </Routes>
