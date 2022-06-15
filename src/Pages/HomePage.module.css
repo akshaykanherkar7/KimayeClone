@@ -85,3 +85,13 @@ margin-top: 8px;
     width: 24%;
     border-radius: 15px;
 }
+
+.secretContainer{
+    /* border: 1px solid red; */
+    margin-top: 70px;
+    background-color: #f3f4ede0;
+    padding: 50px;
+}
+.Carosel{
+    margin-top: 50px;
+}
