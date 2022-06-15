@@ -21,7 +21,6 @@ import {
   ModalCloseButton,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
-import AllFruits from "../Pages/Products/AllFruits";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -118,18 +117,11 @@ const Navbar = () => {
               GROW
               <ChevronDownIcon />
             </MenuButton>
-            <MenuList>
-              <MenuItem>Download</MenuItem>
-              <MenuItem>Create a Copy</MenuItem>
-              <MenuItem>Mark as Draft</MenuItem>
-              <MenuItem>Delete</MenuItem>
-              <MenuItem>Attend a Workshop</MenuItem>
-            </MenuList>
           </Menu>
         </div>
         <div style={{ width: "10%" }}>
           <img
-          onClick={()=> navigate("/")}
+            onClick={() => navigate("/")}
             style={{ width: "100%" }}
             src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/website-logo_400x@2x.png?v=1596288204"
             alt=""
