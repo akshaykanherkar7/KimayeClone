@@ -6,16 +6,28 @@ import styles from "./HomePage.module.css";
 const HomePage = () => {
   return (
     <div>
-      <div style={{ marginTop: "75px" }}>
+      <div>
         <Carousel autoPlay>
           <div>
-            <img src="https://assets.ajio.com/cms/AJIO/WEB/05062022-D-unisex-topbannercarousel-p5-performax-upto70.jpg" />
+            <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Date-launch-post-whatsapp-banner-desktop.jpg?v=1654259038" />
           </div>
           <div>
-            <img src="https://assets.ajio.com/cms/AJIO/WEB/05062022-D-unisex-topbannercarousel-p1-adidas-4060.jpg" />
+            <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Indian-plum-and-peach-banner.jpg?v=1653914762" />
           </div>
           <div>
-            <img src="https://assets.ajio.com/cms/AJIO/WEB/05062022-D-unisex-topbannercarousel-p7-baggit-upto80.jpg" />
+            <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Tarty-Sweetness-banner.jpg?v=1653914749" />
+          </div>
+          <div>
+            <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Delhi-launch-banner.jpg?v=1649917692" />
+          </div>
+          <div>
+            <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/kiwi_bannerArtboard_1.jpg?v=1650952002" />
+          </div>
+          <div>
+            <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/kiwi_bannerAssured_safety_1.jpg?v=1650952014" />
+          </div>
+          <div>
+            <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/kiwi_bannerWe_serve_you_1.jpg?v=1650952015" />
           </div>
         </Carousel>
       </div>
@@ -181,6 +193,180 @@ const HomePage = () => {
             </h1>
             <button className={styles.lastbtn}>KNOW MORE</button>
           </div>
+        </div>
+      </div>
+      {/* THE SECRET’S OUT: WE’RE SUPER SAFE  */}
+      <div className={styles.secretContainer}>
+        <h1
+          style={{ fontSize: "35px", textAlign: "center", fontWeight: "bold" }}
+        >
+          THE SECRET’S OUT: WE’RE SUPER SAFE
+        </h1>
+        <h3
+          style={{ fontSize: "25px", textAlign: "center", marginTop: "10px" }}
+        >
+          Witness Our Journey
+        </h3>
+        <div className={styles.Carosel}>
+          <Carousel autoPlay>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-around",
+                // border: "1px solid ",
+                width: "80%",
+                margin: "auto",
+              }}
+            >
+              <div style={{ marginTop: "100px", marginLeft: "30px" }}>
+                <h1 style={{ textAlign: "start", fontSize: "30px" }}>
+                  Groen responsibly
+                </h1>
+                <p
+                  style={{
+                    textAlign: "start",
+                    marginTop: "20px",
+                    fontSize: "20px",
+                    width: "65%",
+                  }}
+                >
+                  We folloe G.A.P (Good Agricultural Practices)to ensure food
+                  safety
+                </p>
+              </div>
+              <img
+                style={{ width: "50%", borderRadius: "15px" }}
+                src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/secret-1_guetzli-min.jpg?v=1614755149"
+              />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-around",
+                // border: "1px solid ",
+                width: "80%",
+                margin: "auto",
+              }}
+            >
+              <div style={{ marginTop: "100px", marginLeft: "30px" }}>
+                <h1 style={{ textAlign: "start", fontSize: "30px" }}>
+                  Handpicked at farms
+                </h1>
+                <p
+                  style={{
+                    textAlign: "start",
+                    marginTop: "20px",
+                    fontSize: "20px",
+                    width: "65%",
+                  }}
+                >
+                  Our trainer Harvesting Supervisors ensure only the best fruits
+                  are packed
+                </p>
+                <p style={{ textAlign: "start", fontSize: "20px" }}>
+                  #all<label style={{ color: "brown" }}>Safe</label> #all
+                  <label style={{ color: "brown" }}>Good</label>
+                </p>
+              </div>
+              <img
+                style={{ width: "50%", borderRadius: "15px" }}
+                src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/secret-2_guetzli-min.jpg?v=1622009925"
+              />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-around",
+                // border: "1px solid ",
+                width: "80%",
+                margin: "auto",
+              }}
+            >
+              <div style={{ marginTop: "100px", marginLeft: "30px" }}>
+                <h1 style={{ textAlign: "start", fontSize: "30px" }}>
+                  Earning the Kimaye badge
+                </h1>
+                <p
+                  style={{
+                    textAlign: "start",
+                    marginTop: "20px",
+                    fontSize: "20px",
+                    width: "65%",
+                  }}
+                >
+                  Stringent quality checks at our automated pack house ensure
+                  only the the best fruits go thrugh
+                </p>
+              </div>
+              <img
+                style={{ width: "50%", borderRadius: "15px" }}
+                src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/secret-3_guetzli-min.jpg?v=1614755148"
+              />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-around",
+                // border: "1px solid ",
+                width: "80%",
+                margin: "auto",
+              }}
+            >
+              <div style={{ marginTop: "100px", marginLeft: "30px" }}>
+                <h1 style={{ textAlign: "start", fontSize: "30px" }}>
+                  Zero-touch procesess
+                </h1>
+                <p
+                  style={{
+                    textAlign: "start",
+                    marginTop: "20px",
+                    fontSize: "20px",
+                    width: "65%",
+                  }}
+                >
+                  The fruits are then packages and delivers fresh in
+                  acontaimination-free environment
+                </p>
+              </div>
+              <img
+                style={{ width: "50%", borderRadius: "15px" }}
+                src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/secret-4_guetzli-min.jpg?v=1622009925"
+              />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-around",
+                // border: "1px solid ",
+                width: "80%",
+                margin: "auto",
+              }}
+            >
+              <div style={{ marginTop: "100px", marginLeft: "30px" }}>
+                <h1 style={{ textAlign: "start", fontSize: "30px" }}>
+                  Finally
+                </h1>
+                <p
+                  style={{
+                    textAlign: "start",
+                    marginTop: "20px",
+                    fontSize: "20px",
+                    width: "65%",
+                  }}
+                >
+                  Tell us all about hou you enjoy our Fruites using
+                </p>
+                <p style={{ textAlign: "start", fontSize: "20px" }}>
+                  #all<label style={{ color: "brown" }}>Safe</label> #all
+                  <label style={{ color: "brown" }}>Good</label>
+                </p>
+              </div>
+              <img
+                style={{ width: "50%", borderRadius: "15px" }}
+                src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/secret-5_guetzli-min.jpg?v=1622009925"
+              />
+            </div>
+          </Carousel>
         </div>
       </div>
 
