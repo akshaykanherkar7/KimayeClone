@@ -3,6 +3,7 @@ import {
   GET_FRESH_CUTS,
   GET_FRUIT_COMBOS,
   GET_GIFTS_BY_KIMAYE,
+  SEND_PRODUCTS,
 } from "./products.action.types";
 
 const initialState = {
@@ -40,6 +41,13 @@ export const productsReducer = (state = initialState, { type, payload }) => {
       return {
         ...state,
         giftsbykimaye: payload,
+      };
+    }
+
+    case SEND_PRODUCTS: {
+      localStorage.setItem("products", payload);
+      return {
+        ...state,
       };
     }
 
