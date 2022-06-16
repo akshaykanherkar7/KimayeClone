@@ -1,7 +1,10 @@
 import React from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getFruitCombos } from "../../Store/Products/products.action";
+import {
+  getFruitCombos,
+  sendProducts,
+} from "../../Store/Products/products.action";
 import { useNavigate } from "react-router-dom";
 import "./Common.css";
 
@@ -10,14 +13,18 @@ const FruitCombos = () => {
   const { fruitcombos } = useSelector((state) => state.products);
   const navigate = useNavigate();
   //   console.log("fruitcombos:", fruitcombos);
+  const handleSendProduct = (idx) => {
+    dispatch(sendProducts(idx));
+  };
 
   useEffect(() => {
     dispatch(getFruitCombos());
   }, [dispatch]);
+
   return (
     <div>
       <div
-       className="Link"
+        className="Link"
         style={{
           display: "flex",
           //   border: "1px solid",
@@ -41,20 +48,34 @@ const FruitCombos = () => {
         </p>
       </div>
       <div className="MapBox">
-        {fruitcombos.map((el) => (
-          <div style={{ border: "1px solid" }}>
-            <img src={el.image} alt="broken" />
+        {fruitcombos.map((el, idx) => (
+          <div
+            // style={{ border: "1px solid" }}
+            onClick={() => handleSendProduct(idx)}
+          >
+            <img
+              className="Img"
+              style={{ width: "100%", borderRadius: "30px", height: "80%" }}
+              src={el.image}
+              alt="broken"
+            />
             <h1
               style={{
                 textAlign: "center",
                 fontSize: "20px",
-                fontWeight: "bold",
+                // fontWeight: "bold",
+                marginTop: "15px",
               }}
             >
               {el.title}
             </h1>
             <h3
-              style={{ textAlign: "center", color: "brown", fontSize: "25px" }}
+              style={{
+                textAlign: "center",
+                color: "brown",
+                fontSize: "25px",
+                marginTop: "10px",
+              }}
             >
               ₹{el.price}
             </h3>
@@ -62,7 +83,7 @@ const FruitCombos = () => {
         ))}
       </div>
       <div
-       className="Link"
+        className="Link"
         style={{
           display: "flex",
           //   border: "1px solid",

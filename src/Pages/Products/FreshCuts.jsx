@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getFreshCuts } from "../../Store/Products/products.action";
+import { getFreshCuts, sendProducts } from "../../Store/Products/products.action";
 import { useNavigate } from "react-router-dom";
 import "./Common.css";
 
@@ -10,14 +10,18 @@ const FreshCuts = () => {
   const { freshcuts } = useSelector((state) => state.products);
   const navigate = useNavigate();
   //   console.log("freshcuts:", freshcuts);
+  const handleSendProduct = (idx) => {
+    dispatch(sendProducts(idx));
+  };
 
   useEffect(() => {
     dispatch(getFreshCuts());
   }, [dispatch]);
+
   return (
     <div>
       <div
-       className="Link"
+        className="Link"
         style={{
           display: "flex",
           //   border: "1px solid",
@@ -43,21 +47,36 @@ const FreshCuts = () => {
           GIFTS BY KIMAYE
         </p>
       </div>
+
       <div className="MapBox">
-        {freshcuts.map((el) => (
-          <div style={{ border: "1px solid" }}>
-            <img src={el.image} alt="broken" />
+        {freshcuts.map((el,idx) => (
+          <div
+          // style={{ border: "1px solid" }}
+          onClick={() => handleSendProduct(idx)}
+          >
+            <img
+              className="Img"
+              style={{ width: "100%", borderRadius: "30px", height: "80%" }}
+              src={el.image}
+              alt="broken"
+            />
             <h1
               style={{
                 textAlign: "center",
                 fontSize: "20px",
-                fontWeight: "bold",
+                // fontWeight: "bold",
+                marginTop: "15px",
               }}
             >
               {el.title}
             </h1>
             <h3
-              style={{ textAlign: "center", color: "brown", fontSize: "25px" }}
+              style={{
+                textAlign: "center",
+                color: "brown",
+                fontSize: "25px",
+                marginTop: "10px",
+              }}
             >
               ₹{el.price}
             </h3>
@@ -65,7 +84,7 @@ const FreshCuts = () => {
         ))}
       </div>
       <div
-       className="Link"
+        className="Link"
         style={{
           display: "flex",
           //   border: "1px solid",

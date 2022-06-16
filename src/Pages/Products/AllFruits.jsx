@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getAllFruits } from "../../Store/Products/products.action";
+import {
+  getAllFruits,
+  sendProducts,
+} from "../../Store/Products/products.action";
 import { useNavigate } from "react-router-dom";
 import "./Common.css";
 
@@ -9,6 +12,9 @@ const AllFruits = () => {
   const { allfruits } = useSelector((state) => state.products);
   const navigate = useNavigate();
   //   console.log("allfruits:", allfruits);
+  const handleSendProduct = (idx) => {
+    dispatch(sendProducts(idx));
+  };
 
   useEffect(() => {
     dispatch(getAllFruits());
@@ -43,20 +49,34 @@ const AllFruits = () => {
         </p>
       </div>
       <div className="MapBox">
-        {allfruits.map((el) => (
-          <div style={{ border: "1px solid" }}>
-            <img src={el.image} alt="broken" />
+        {allfruits.map((el, idx) => (
+          <div
+            // style={{ border: "1px solid" }}
+            onClick={() => handleSendProduct(idx)}
+          >
+            <img
+              className="Img"
+              style={{ width: "100%", borderRadius: "30px", height: "80%" }}
+              src={el.image}
+              alt="broken"
+            />
             <h1
               style={{
                 textAlign: "center",
                 fontSize: "20px",
-                fontWeight: "bold",
+                // fontWeight: "bold",
+                marginTop: "15px",
               }}
             >
               {el.title}
             </h1>
             <h3
-              style={{ textAlign: "center", color: "brown", fontSize: "25px" }}
+              style={{
+                textAlign: "center",
+                color: "brown",
+                fontSize: "25px",
+                marginTop: "10px",
+              }}
             >
               ₹{el.price}
             </h3>
