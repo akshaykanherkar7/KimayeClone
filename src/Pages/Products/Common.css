@@ -1,5 +1,5 @@
 .MapBox{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(3, 400px);
     grid-template-rows: auto;
@@ -10,5 +10,8 @@
     margin-top: 40px;
 }
 .Link p{
+    cursor: pointer;
+}
+.Img:hover{
     cursor: pointer;
 }
