@@ -5,10 +5,7 @@ import { getFreshCuts } from "../../Store/Products/products.action";
 import { useNavigate } from "react-router-dom";
 import "./Common.css";
 
-
-
 const FreshCuts = () => {
-  
   const dispatch = useDispatch();
   const { freshcuts } = useSelector((state) => state.products);
   const navigate = useNavigate();
@@ -17,14 +14,12 @@ const FreshCuts = () => {
   useEffect(() => {
     dispatch(getFreshCuts());
   }, [dispatch]);
-  
-  return (
 
+  return (
     <div>
       <div
-       className="Link"
+        className="Link"
         style={{
-         
           display: "flex",
           //   border: "1px solid",
           width: "fit-content",
@@ -33,7 +28,6 @@ const FreshCuts = () => {
           marginTop: "25px",
         }}
       >
-
         <p onClick={() => navigate("/collections/all-fruits")}>ALL FRUITS</p>
         <p
           style={{ textDecoration: "underline" }}
@@ -41,7 +35,6 @@ const FreshCuts = () => {
         >
           {" "}
           FRESH CUTS
-      
         </p>
         <p onClick={() => navigate("/collections/fruit-combos")}>
           {" "}
@@ -52,23 +45,34 @@ const FreshCuts = () => {
         </p>
       </div>
 
-
-
       <div className="MapBox">
         {freshcuts.map((el) => (
-          <div style={{ border: "1px solid" }}>
-            <img src={el.image} alt="broken" />
+          <div
+          // style={{ border: "1px solid" }}
+          >
+            <img
+              className="Img"
+              style={{ width: "100%", borderRadius: "30px", height: "80%" }}
+              src={el.image}
+              alt="broken"
+            />
             <h1
               style={{
                 textAlign: "center",
                 fontSize: "20px",
-                fontWeight: "bold",
+                // fontWeight: "bold",
+                marginTop: "15px",
               }}
             >
               {el.title}
             </h1>
             <h3
-              style={{ textAlign: "center", color: "brown", fontSize: "25px" }}
+              style={{
+                textAlign: "center",
+                color: "brown",
+                fontSize: "25px",
+                marginTop: "10px",
+              }}
             >
               ₹{el.price}
             </h3>
@@ -76,7 +80,7 @@ const FreshCuts = () => {
         ))}
       </div>
       <div
-       className="Link"
+        className="Link"
         style={{
           display: "flex",
           //   border: "1px solid",
@@ -85,12 +89,10 @@ const FreshCuts = () => {
           margin: "auto",
           marginTop: "25px",
           marginBottom: "30px",
-        
         }}
       >
         <p onClick={() => navigate("/collections/all-fruits")}>ALL FRUITS</p>
         <p
-
           style={{ textDecoration: "underline" }}
           onClick={() => navigate("/collections/fresh-cuts")}
         >
@@ -104,7 +106,6 @@ const FreshCuts = () => {
         <p onClick={() => navigate("/collections/gifts-by-kimaye")}>
           GIFTS BY KIMAYE
         </p>
-        
       </div>
     </div>
   );
