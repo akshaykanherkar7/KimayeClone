@@ -51,3 +51,58 @@
     padding-left: 70px;
     
 }
+.btncash{
+    height: 30px;
+    border: 1px solid rgb(46, 44, 44);
+    font-size:xx-large;
+    line-height: 0;
+    padding-top: 0;
+    width: 25px;
+
+}
+.rot{
+    display:flex;
+    height: 300px;
+    width: 88%;
+    margin: auto;
+    border: 1px solid;
+    margin-top: 30px;
+    gap: 10px;
+    padding-left: 7px;
+    
+    
+}
+.angle{
+    position: absolute;
+    /* display: block;
+    align-items: center; */
+    margin-top: 120px;
+    /* margin-top: 150px; */
+    border: 1px solid red;
+    width: 35px;
+    height: 35px;
+    padding-left: 7px;
+    left: 6%;
+
+}
+.notangle{
+    width: 30%;
+    height: 100%;
+    border: 1px solid red;
+    margin-left: 27px;
+    
+
+}
+.notangle>img{
+    width: 100%;
+    height: 80%;
+}
+.angle1{
+    position: absolute;
+    margin-top: 120px;
+    left:91.5%;
+    border:1px solid red;
+    width: 35px;
+    height: 35px;
+    padding-left: 7px;
+}
