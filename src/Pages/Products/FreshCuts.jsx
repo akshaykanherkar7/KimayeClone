@@ -5,7 +5,10 @@ import { getFreshCuts } from "../../Store/Products/products.action";
 import { useNavigate } from "react-router-dom";
 import "./Common.css";
 
+
+
 const FreshCuts = () => {
+  
   const dispatch = useDispatch();
   const { freshcuts } = useSelector((state) => state.products);
   const navigate = useNavigate();
@@ -14,11 +17,14 @@ const FreshCuts = () => {
   useEffect(() => {
     dispatch(getFreshCuts());
   }, [dispatch]);
+  
   return (
+
     <div>
       <div
        className="Link"
         style={{
+         
           display: "flex",
           //   border: "1px solid",
           width: "fit-content",
@@ -27,6 +33,7 @@ const FreshCuts = () => {
           marginTop: "25px",
         }}
       >
+
         <p onClick={() => navigate("/collections/all-fruits")}>ALL FRUITS</p>
         <p
           style={{ textDecoration: "underline" }}
@@ -34,6 +41,7 @@ const FreshCuts = () => {
         >
           {" "}
           FRESH CUTS
+      
         </p>
         <p onClick={() => navigate("/collections/fruit-combos")}>
           {" "}
@@ -43,6 +51,9 @@ const FreshCuts = () => {
           GIFTS BY KIMAYE
         </p>
       </div>
+
+
+
       <div className="MapBox">
         {freshcuts.map((el) => (
           <div style={{ border: "1px solid" }}>
@@ -74,10 +85,12 @@ const FreshCuts = () => {
           margin: "auto",
           marginTop: "25px",
           marginBottom: "30px",
+        
         }}
       >
         <p onClick={() => navigate("/collections/all-fruits")}>ALL FRUITS</p>
         <p
+
           style={{ textDecoration: "underline" }}
           onClick={() => navigate("/collections/fresh-cuts")}
         >
@@ -91,6 +104,7 @@ const FreshCuts = () => {
         <p onClick={() => navigate("/collections/gifts-by-kimaye")}>
           GIFTS BY KIMAYE
         </p>
+        
       </div>
     </div>
   );

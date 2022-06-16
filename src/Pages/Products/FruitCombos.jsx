@@ -6,15 +6,21 @@ import { useNavigate } from "react-router-dom";
 import "./Common.css";
 
 const FruitCombos = () => {
+  
   const dispatch = useDispatch();
   const { fruitcombos } = useSelector((state) => state.products);
   const navigate = useNavigate();
   //   console.log("fruitcombos:", fruitcombos);
 
-  useEffect(() => {
+  useEffect(() => 
+  {
     dispatch(getFruitCombos());
   }, [dispatch]);
+
+
+
   return (
+    
     <div>
       <div
        className="Link"
@@ -39,12 +45,14 @@ const FruitCombos = () => {
         <p onClick={() => navigate("/collections/gifts-by-kimaye")}>
           GIFTS BY KIMAYE
         </p>
+
       </div>
       <div className="MapBox">
         {fruitcombos.map((el) => (
           <div style={{ border: "1px solid" }}>
             <img src={el.image} alt="broken" />
             <h1
+
               style={{
                 textAlign: "center",
                 fontSize: "20px",
@@ -62,6 +70,7 @@ const FruitCombos = () => {
         ))}
       </div>
       <div
+
        className="Link"
         style={{
           display: "flex",
@@ -72,6 +81,7 @@ const FruitCombos = () => {
           marginTop: "25px",
           marginBottom: "30px",
         }}
+
       >
         <p onClick={() => navigate("/collections/all-fruits")}>ALL FRUITS</p>
         <p onClick={() => navigate("/collections/fresh-cuts")}> FRESH CUTS</p>
