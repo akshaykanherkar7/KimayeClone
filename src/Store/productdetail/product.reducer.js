@@ -7,7 +7,7 @@ export const productreducer = (state=initalstate,{type,payload})=>{
   switch(type)
   {
     case GET_PRODUCT:{
-      return {...state,data:{...state.data,payload}}
+      return {...state,data:payload}
     }
     default:{
       return state;

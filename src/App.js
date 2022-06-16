@@ -7,6 +7,7 @@ import AllFruits from "./Pages/Products/AllFruits";
 import FreshCuts from "./Pages/Products/FreshCuts";
 import FruitCombos from "./Pages/Products/FruitCombos";
 import GiftsByKimaye from "./Pages/Products/GiftsByKimaye";
+import {Productdetail} from "./Pages/Productdetail/Productdetail"
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           path="/collections/gifts-by-kimaye"
           element={<GiftsByKimaye></GiftsByKimaye>}
         ></Route>
+        <Route path="/shashank" element={<Productdetail />}/>
       </Routes>
       <Footer></Footer>
     </div>
