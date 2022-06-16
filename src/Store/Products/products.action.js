@@ -4,6 +4,7 @@ import {
   GET_FRESH_CUTS,
   GET_FRUIT_COMBOS,
   GET_GIFTS_BY_KIMAYE,
+  SEND_PRODUCTS,
 } from "./products.action.types";
 
 export const getAllFruits = () => (dispatch) => {
@@ -28,4 +29,8 @@ export const getGiftsByKimaye = () => (dispatch) => {
   axios.get("http://localhost:8080/giftsbykimaye").then((res) => {
     dispatch({ type: GET_GIFTS_BY_KIMAYE, payload: res.data });
   });
+};
+
+export const sendProducts = (data) => (dispatch) => {
+  dispatch({ type: SEND_PRODUCTS, payload: data });
 };

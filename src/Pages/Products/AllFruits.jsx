@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getAllFruits } from "../../Store/Products/products.action";
+import {
+  getAllFruits,
+  sendProducts,
+} from "../../Store/Products/products.action";
 import { useNavigate } from "react-router-dom";
 import "./Common.css";
 
@@ -9,6 +12,9 @@ const AllFruits = () => {
   const { allfruits } = useSelector((state) => state.products);
   const navigate = useNavigate();
   //   console.log("allfruits:", allfruits);
+  const handleSendProduct = (idx) => {
+    dispatch(sendProducts(idx));
+  };
 
   useEffect(() => {
     dispatch(getAllFruits());
@@ -43,9 +49,10 @@ const AllFruits = () => {
         </p>
       </div>
       <div className="MapBox">
-        {allfruits.map((el) => (
+        {allfruits.map((el, idx) => (
           <div
-          // style={{ border: "1px solid" }}
+            // style={{ border: "1px solid" }}
+            onClick={() => handleSendProduct(idx)}
           >
             <img
               className="Img"

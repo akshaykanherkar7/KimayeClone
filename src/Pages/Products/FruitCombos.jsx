@@ -1,7 +1,10 @@
 import React from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getFruitCombos } from "../../Store/Products/products.action";
+import {
+  getFruitCombos,
+  sendProducts,
+} from "../../Store/Products/products.action";
 import { useNavigate } from "react-router-dom";
 import "./Common.css";
 
@@ -10,6 +13,9 @@ const FruitCombos = () => {
   const { fruitcombos } = useSelector((state) => state.products);
   const navigate = useNavigate();
   //   console.log("fruitcombos:", fruitcombos);
+  const handleSendProduct = (idx) => {
+    dispatch(sendProducts(idx));
+  };
 
   useEffect(() => {
     dispatch(getFruitCombos());
@@ -42,9 +48,10 @@ const FruitCombos = () => {
         </p>
       </div>
       <div className="MapBox">
-        {fruitcombos.map((el) => (
+        {fruitcombos.map((el, idx) => (
           <div
-          // style={{ border: "1px solid" }}
+            // style={{ border: "1px solid" }}
+            onClick={() => handleSendProduct(idx)}
           >
             <img
               className="Img"

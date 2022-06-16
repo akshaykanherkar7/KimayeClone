@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getFreshCuts } from "../../Store/Products/products.action";
+import { getFreshCuts, sendProducts } from "../../Store/Products/products.action";
 import { useNavigate } from "react-router-dom";
 import "./Common.css";
 
@@ -10,6 +10,9 @@ const FreshCuts = () => {
   const { freshcuts } = useSelector((state) => state.products);
   const navigate = useNavigate();
   //   console.log("freshcuts:", freshcuts);
+  const handleSendProduct = (idx) => {
+    dispatch(sendProducts(idx));
+  };
 
   useEffect(() => {
     dispatch(getFreshCuts());
@@ -46,9 +49,10 @@ const FreshCuts = () => {
       </div>
 
       <div className="MapBox">
-        {freshcuts.map((el) => (
+        {freshcuts.map((el,idx) => (
           <div
           // style={{ border: "1px solid" }}
+          onClick={() => handleSendProduct(idx)}
           >
             <img
               className="Img"
