@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import {useSelector,useDispatch} from "react-redux"
+import {useHistory, useLocation} from "react-router-dom"
 import {useParams} from "react-router-dom"
 import { cartdata, cartdelivery, countdec, countinc, countupdate, getarray, get_product } from '../../Store/productdetail/product.action';
 import styles from "./style.module.css";
@@ -33,13 +34,26 @@ const Productdetail = () => {
   let mm = useRef();
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
+  let history = window.location.href;
+  let {pathname} = useLocation();
+  console.log(pathname,"param")
+  
   let getcred = {
     categeory:categeory,
     title:producttitle,
   }
  
   useEffect(()=>{
-    dispatch (get_product(getcred))
+    let last = pathname.substring(pathname.lastIndexOf('/')+1)
+    console.log(last,"last");
+    let a = JSON.parse(localStorage.getItem("products"))
+    a=a.title
+    getcred.title=a
+    console.log("a",a)
+    
+    getcred.categeory=last;
+    console.log("getcred",getcred)
+    dispatch(get_product(getcred))
     dispatch(getarray(getcred));
     
     
