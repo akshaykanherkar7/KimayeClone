@@ -3,6 +3,7 @@ import "./App.css";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import HomePage from "./Pages/HomePage";
+import Productdetail from "./Pages/Productdetail/productdetail";
 
 import AllFruits from "./Pages/Products/AllFruits";
 import FreshCuts from "./Pages/Products/FreshCuts";
@@ -33,6 +34,7 @@ function App() {
           path="/collections/gifts-by-kimaye"
           element={<GiftsByKimaye></GiftsByKimaye>}
         ></Route>
+        <Route path="/productdetail" element={<Productdetail/>} />
 
       </Routes>
       <Footer></Footer>
