@@ -1,0 +1,60 @@
+.mainregisterdiv {
+    width: 250px;
+    background-color: #fff;
+    position: relative;
+    float: right;
+    margin-right: 8px;
+}
+.facebookredirectlink {
+    background-color: #3b5998;
+    margin-top: 20px;
+}
+.googleredirectlink {
+    background-color: #dd4b39;
+    margin-top: 10px;
+}
+.register-btn:hover {
+    background-color: black;
+    color: white;
+}
+.horizontalline {
+    width: 280px;
+    margin: auto;
+    margin-right: 10px;
+    border: 0.05px solid rgb(223, 222, 222);
+    margin-top: 20px;
+    background-color: rgb(214, 212, 212);
+}
+.userIcon {
+    height:80px;
+    width: 80px;
+    color: rgb(217, 213, 213);
+    margin-top: 30px;
+}
+.noaccountyet {
+    font-weight: 500;
+    margin-top: 10px;
+}
+.welcometokimayetext {
+    margin-top: 10px;
+}
+.first-login-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.closeiconfromchakra {
+    margin-left: 5px;
+    height: 5px;
+    width: 5px;
+    margin-bottom: 3px;
+}
+.facebooksquareicon {
+    height: 40px;
+    color: #4f6aa3 ;
+    background-color: #fff;
+}
+.googleplussquareicon {
+    height: 40px;
+    background-color: white;
+    color: #dd4b39;
+}

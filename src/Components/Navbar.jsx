@@ -22,6 +22,7 @@ import {
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import Login from "../Pages/LoginSignin/Login";
+import Signin from "../Pages/LoginSignin/Signin";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -163,12 +164,11 @@ const Navbar = () => {
             </button>
           </div>
           <div>
-            <Login></Login>
+            <Signin></Signin>
             {/* <button ref={btnRef} colorScheme="teal" onClick={onOpen}>
               <i style={{ fontSize: "20px" }} class="fa-regular fa-user"></i>
             </button> */}
-           {/* Drawer    */}
-           
+            {/* Drawer    */}
           </div>
           <div>
             <button>
