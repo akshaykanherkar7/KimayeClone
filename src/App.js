@@ -3,11 +3,12 @@ import "./App.css";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import HomePage from "./Pages/HomePage";
+import Productdetail from "./Pages/Productdetail/productdetail";
 import AllFruits from "./Pages/Products/AllFruits";
 import FreshCuts from "./Pages/Products/FreshCuts";
 import FruitCombos from "./Pages/Products/FruitCombos";
 import GiftsByKimaye from "./Pages/Products/GiftsByKimaye";
-import {Productdetail} from "./Pages/Productdetail/Productdetail"
+
 
 function App() {
   return (
