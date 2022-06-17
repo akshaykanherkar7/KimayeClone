@@ -1,0 +1,208 @@
+.main{
+   
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  border: 1px solid;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    sans-serif;
+  font-size: 14px;
+  background-color: #ececec;
+
+
+}
+.box1 {
+    margin: auto;
+    
+margin-top: 30px;
+
+    box-sizing: border-box;
+    background-color: #ececec;
+    
+    background-color: #ececec;
+    margin-left: 0;
+    padding-left: 0;
+    
+ 
+  }
+.box2{
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+
+  }
+.box1>div{
+    margin-left: 130px
+   
+}
+.box1>div>div{
+  padding-top: 10px;
+ 
+}
+input{
+  width: 547px;
+  height:40px;
+  
+}
+select{
+  height: 40px;
+  width:300px
+  
+}
+button{
+  
+  width: 300px;
+  height: 40px;
+  border: 1px solid; 
+}
+span{
+  color: red;
+  margin-left: 20px;
+}
+.box2>div{
+  margin-top: 60px;
+  margin-left: 130px;
+
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+ 
+  margin-right:30px;
+  border-style: inset;
+  border-width: 1px;
+  width: 450px;
+}
+.total>div{
+  width:430px;
+  display: flex;
+ justify-content: space-between;
+ margin-top: 10px;
+
+}
+.detail{
+background-color: #ececec;
+margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+ 
+}
+.detail>div{
+ margin-left: 20px;
+ border-bottom: 1px solid gray;
+ margin-top: 10px;
+}
+.expiration{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.pay{
+  padding-left: 20px;
+  height: 90%;
+  width: 100%;
+  border: 1px solid rgb(198, 194, 194);
+  border-radius: 5px;
+
+}
+.second{
+  height: 5%;
+  width: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  /* margin-top: 30px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+  background-color: #f7f7f7;
+  
+}
+.radiobtn{
+  width: 30px;
+  height: 20px;
+  accent-color: black;
+margin-top: -0px;
+}
+.third{
+
+  margin-top: 20px;
+  color:gray;
+}
+.third>input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.billing{
+  box-shadow: rgba(238, 235, 235, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background-color: #ececec;
+  margin-top: 20px;
+}
+.billing>div{
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid gray;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+.save{
+  background-color: rgb(224, 218, 218);
+  color: black;
+  text-align: center;
+  height: 40px;
+  width: 91%;
+  margin-left: 30px;
+  margin-top: 10px;
+ 
+  font-size: 20px;
+  margin-bottom: 30px;
+  /* margin: auto; */
+}
+.cash{
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  background-color: rgb(224, 218, 218);
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.phone>div{
+  display: flex;
+  gap: 20px;
+  background-color: rgb(224, 218, 218);
+padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
+
+
+
+}
+.body{
+  background-color: #f8f5f4;
+}
+.recpCont{
+  width: 400px;
+  margin: auto;
+  margin-top: 150px;
+  /* border: 1px solid green; */
+  text-align: center;
+  /* background-color: rgba(170, 170, 239, 0.933); */
+  background-color: #fff;
+  /* color: #fff; */
+  color: rgb(0, 231, 0);
+  border-radius: 10px;
+}
+.btn{
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}

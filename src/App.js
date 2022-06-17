@@ -1,13 +1,20 @@
 import "./App.css";
-import Footer from "./Components/Footer";
-import Navbar from "./Components/Navbar";
-import HomePage from "./Pages/HomePage";
-
+import Checkout1 from "../src/Pages/Paymentpages/Checkout1"
+import { Paymentpage } from "./Pages/Paymentpages/Paymentpage";
+import {Routes,Route} from "react-router-dom"
+// import Sucess from "./Pages/Paymentpages/Sucess";
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
-      <HomePage></HomePage>
+ {/* <Sucess/> */}
+
+
+ 
+<Routes>
+   <Route  path="/checkoutpage" element={<Checkout1/>}></Route>
+   <Route path="/paymentpage" element={<Paymentpage/>}></Route>
+</Routes>
+
       {/* <Footer></Footer> */}
     </div>
   );
