@@ -45,9 +45,9 @@ export const productsReducer = (state = initialState, { type, payload }) => {
     }
 
     case SEND_PRODUCTS: {
-      let data = [];
-      data.push(payload);
-      localStorage.setItem("products", JSON.stringify(data));
+      // let data = [];
+      // data.push(payload);
+      localStorage.setItem("products", JSON.stringify(payload));
       return {
         ...state,
       };
