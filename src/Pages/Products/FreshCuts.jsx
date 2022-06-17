@@ -49,10 +49,10 @@ const FreshCuts = () => {
       </div>
 
       <div className="MapBox">
-        {freshcuts.map((el,idx) => (
+        {freshcuts.map((el) => (
           <div
           // style={{ border: "1px solid" }}
-          onClick={() => handleSendProduct(idx)}
+          onClick={() => handleSendProduct(el)}
           >
             <img
               className="Img"

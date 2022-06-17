@@ -21,6 +21,8 @@ import {
   ModalCloseButton,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
+import Login from "../Pages/LoginSignin/Login";
+import Signin from "../Pages/LoginSignin/Signin";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -162,32 +164,11 @@ const Navbar = () => {
             </button>
           </div>
           <div>
-            <button ref={btnRef} colorScheme="teal" onClick={onOpen}>
+            <Signin></Signin>
+            {/* <button ref={btnRef} colorScheme="teal" onClick={onOpen}>
               <i style={{ fontSize: "20px" }} class="fa-regular fa-user"></i>
-            </button>
-            <Drawer
-              isOpen={isOpen}
-              placement="right"
-              onClose={onClose}
-              finalFocusRef={btnRef}
-            >
-              <DrawerOverlay />
-              <DrawerContent>
-                <DrawerCloseButton />
-                <DrawerHeader> AKSHAY</DrawerHeader>
-
-                <DrawerBody>
-                  <Input placeholder="Type here..." />
-                </DrawerBody>
-
-                <DrawerFooter>
-                  <Button variant="outline" mr={3} onClick={onClose}>
-                    Cancel
-                  </Button>
-                  <Button colorScheme="blue">Save</Button>
-                </DrawerFooter>
-              </DrawerContent>
-            </Drawer>
+            </button> */}
+            {/* Drawer    */}
           </div>
           <div>
             <button>
