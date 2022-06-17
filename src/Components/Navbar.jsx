@@ -67,28 +67,28 @@ const Navbar = () => {
             <MenuList>
               <MenuItem
                 onClick={() => {
-                  navigate("collections/all-fruits");
+                  navigate("collections/allfruits");
                 }}
               >
                 ALL FRUITS
               </MenuItem>
               <MenuItem
                 onClick={() => {
-                  navigate("collections/fresh-cuts");
+                  navigate("collections/freshcuts");
                 }}
               >
                 FRESH CUTS
               </MenuItem>
               <MenuItem
                 onClick={() => {
-                  navigate("collections/fruit-combos");
+                  navigate("collections/fruitcombos");
                 }}
               >
                 FRUIT COMBOS
               </MenuItem>
               <MenuItem
                 onClick={() => {
-                  navigate("collections/gifts-by-kimaye");
+                  navigate("collections/giftsbykimaye");
                 }}
               >
                 GIFTS BY KIMAYE

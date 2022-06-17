@@ -31,19 +31,19 @@ const FreshCuts = () => {
           marginTop: "25px",
         }}
       >
-        <p onClick={() => navigate("/collections/all-fruits")}>ALL FRUITS</p>
+        <p onClick={() => navigate("/collections/allfruits")}>ALL FRUITS</p>
         <p
           style={{ textDecoration: "underline" }}
-          onClick={() => navigate("/collections/fresh-cuts")}
+          onClick={() => navigate("/collections/freshcuts")}
         >
           {" "}
           FRESH CUTS
         </p>
-        <p onClick={() => navigate("/collections/fruit-combos")}>
+        <p onClick={() => navigate("/collections/fruitcombos")}>
           {" "}
           FRUIT COMBOS
         </p>
-        <p onClick={() => navigate("/collections/gifts-by-kimaye")}>
+        <p onClick={() => navigate("/collections/giftsbykimaye")}>
           GIFTS BY KIMAYE
         </p>
       </div>

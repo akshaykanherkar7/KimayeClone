@@ -54,26 +54,26 @@ const HomePage = () => {
           <div className={styles.FlexBox1}>
             <div>
               <img
-                onClick={() => navigate("/collections/all-fruits")}
+                onClick={() => navigate("/collections/allfruits")}
                 src="https://cdn.shopify.com/s/files/1/0449/5225/6667/collections/recommended-1-min_670x.png?v=1614338437"
                 alt=""
               />
               <h1>ALL FRUITS</h1>
               <p>Pick and choose from a wide range of delicious fruits</p>
-              <button onClick={() => navigate("/collections/all-fruits")}>
+              <button onClick={() => navigate("/collections/allfruits")}>
                 Shop Now
               </button>
             </div>
             <div>
               <img
-                onClick={() => navigate("/collections/fresh-cuts")}
+                onClick={() => navigate("/collections/freshcuts")}
                 style={{ width: "82.8%" }}
                 src="https://cdn.shopify.com/s/files/1/0449/5225/6667/collections/recommended-3-min_670x.png?v=1614338730"
                 alt=""
               />
               <h1>FRESH CUTS</h1>
               <p>We want to spoon-feed you… quite literally</p>
-              <button onClick={() => navigate("/collections/fresh-cuts")}>
+              <button onClick={() => navigate("/collections/freshcuts")}>
                 Shop Now
               </button>
             </div>
@@ -81,27 +81,27 @@ const HomePage = () => {
           <div className={styles.FlexBox1}>
             <div>
               <img
-                onClick={() => navigate("/collections/fruit-combos")}
+                onClick={() => navigate("/collections/fruitcombos")}
                 style={{ width: "90%" }}
                 src="https://cdn.shopify.com/s/files/1/0449/5225/6667/collections/recommended-2-min_670x.jpg?v=1614339080"
                 alt=""
               />
               <h1>FRUIT COMBOS</h1>
               <p>Indulge in fruit combinations created by us</p>
-              <button onClick={() => navigate("/collections/fruit-combos")}>
+              <button onClick={() => navigate("/collections/fruitcombos")}>
                 Shop Now
               </button>
             </div>
             <div>
               <img
-                onClick={() => navigate("/collections/gifts-by-kimaye")}
+                onClick={() => navigate("/collections/giftsbykimaye")}
                 style={{ width: "90%" }}
                 src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/2I8A6078_670x.jpg?v=1631516874"
                 alt=""
               />
               <h1>GIFTS BY KIMAYE</h1>
               <p>Healthy & memorable gifts for your loved ones</p>
-              <button onClick={() => navigate("/collections/gifts-by-kimaye")}>
+              <button onClick={() => navigate("/collections/giftsbykimaye")}>
                 Shop Now
               </button>
             </div>
