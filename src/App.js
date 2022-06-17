@@ -3,11 +3,12 @@ import "./App.css";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import HomePage from "./Pages/HomePage";
-import MyAccount from "./Pages/LoginSignin/MyAccount";
+
 import AllFruits from "./Pages/Products/AllFruits";
 import FreshCuts from "./Pages/Products/FreshCuts";
 import FruitCombos from "./Pages/Products/FruitCombos";
 import GiftsByKimaye from "./Pages/Products/GiftsByKimaye";
+
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
           path="/collections/gifts-by-kimaye"
           element={<GiftsByKimaye></GiftsByKimaye>}
         ></Route>
-        <Route path="/myaccount" element={<MyAccount />}></Route>
+
       </Routes>
       <Footer></Footer>
     </div>
