@@ -14,6 +14,7 @@ const AllFruits = () => {
   //   console.log("allfruits:", allfruits);
   const handleSendProduct = (idx) => {
     dispatch(sendProducts(idx));
+    navigate("/collections/allfruits/productdetail");
   };
 
   useEffect(() => {

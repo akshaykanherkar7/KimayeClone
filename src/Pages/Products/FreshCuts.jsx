@@ -12,6 +12,7 @@ const FreshCuts = () => {
   //   console.log("freshcuts:", freshcuts);
   const handleSendProduct = (idx) => {
     dispatch(sendProducts(idx));
+    navigate("/collections/freshcuts/productdetail");
   };
 
   useEffect(() => {

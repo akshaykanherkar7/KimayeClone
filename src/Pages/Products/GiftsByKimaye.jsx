@@ -15,6 +15,7 @@ const GiftsByKimaye = () => {
   //   console.log("giftsbykimaye:", giftsbykimaye);
   const handleSendProduct = (idx) => {
     dispatch(sendProducts(idx));
+    navigate("/collections/giftsbykimaye/productdetail");
   };
 
   useEffect(() => {
