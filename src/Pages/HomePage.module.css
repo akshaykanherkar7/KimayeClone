@@ -39,3 +39,59 @@ margin-top: 8px;
     background-color: #db0101;
     color: white;
 }
+.FlexBox1 img:hover{
+    height: 80%;
+    cursor: pointer;
+}
+.lastbtn{
+    margin-top: 30px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+.lastbtn:hover{
+    background-color: black;
+    color: white;
+}
+.psstContainer{
+    border: 1px solid;
+    /* margin-top: 10px; */
+    background-color:#f3f4ede0 ;
+    border-color:#f3f4ede0 ;
+}
+.psstContainer h1{
+   text-align: center;
+   font-weight: bold;
+   font-size: 39px;
+   margin-top: 40px;
+}
+.psstContainer h3{
+   text-align: center;
+   font-size: 25px;
+   margin-top: 10px;
+}
+
+.psstImg{
+    /* border: 1px solid; */
+    display: flex;
+    width: 80%;
+    margin: auto;
+   justify-content: space-evenly;
+   gap: 15px;
+   margin-top: 40px;
+   margin-bottom: 60px;
+}
+.psstImg img{
+    width: 24%;
+    border-radius: 15px;
+}
+
+.secretContainer{
+    /* border: 1px solid red; */
+    /* margin-top: 70px; */
+    background-color: #f3f4ede0;
+    padding: 50px;
+}
+.Carosel{
+    margin-top: 50px;
+}

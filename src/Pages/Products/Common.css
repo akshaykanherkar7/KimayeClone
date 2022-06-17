@@ -1,0 +1,17 @@
+.MapBox{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: auto;
+    width: 85%;
+    gap: 20px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px;
+}
+.Link p{
+    cursor: pointer;
+}
+.Img:hover{
+    cursor: pointer;
+}

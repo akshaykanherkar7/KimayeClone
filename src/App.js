@@ -1,21 +1,47 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Checkout1 from "../src/Pages/Paymentpages/Checkout1"
-import { Paymentpage } from "./Pages/Paymentpages/Paymentpage";
-import {Routes,Route} from "react-router-dom"
-// import Sucess from "./Pages/Paymentpages/Sucess";
+
+ 
+
+import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
+import HomePage from "./Pages/HomePage";
+import Productdetail from "./Pages/Productdetail/productdetail";
+
+import AllFruits from "./Pages/Products/AllFruits";
+import FreshCuts from "./Pages/Products/FreshCuts";
+import FruitCombos from "./Pages/Products/FruitCombos";
+import GiftsByKimaye from "./Pages/Products/GiftsByKimaye";
+
+
 function App() {
   return (
     <div>
- {/* <Sucess/> */}
+      <Navbar></Navbar>
 
+      <Routes>
+        <Route path="/" element={<HomePage></HomePage>} />
+        <Route
+          path="/collections/all-fruits"
+          element={<AllFruits></AllFruits>}
+        ></Route>
+        <Route
+          path="/collections/fresh-cuts"
+          element={<FreshCuts></FreshCuts>}
+        ></Route>
+        <Route
+          path="/collections/fruit-combos"
+          element={<FruitCombos></FruitCombos>}
+        ></Route>
+        <Route
+          path="/collections/gifts-by-kimaye"
+          element={<GiftsByKimaye></GiftsByKimaye>}
+        ></Route>
+        <Route path="/productdetail" element={<Productdetail/>} />
 
- 
-<Routes>
-   <Route  path="/checkoutpage" element={<Checkout1/>}></Route>
-   <Route path="/paymentpage" element={<Paymentpage/>}></Route>
-</Routes>
+      </Routes>
+      <Footer></Footer>
 
-      {/* <Footer></Footer> */}
     </div>
   );
 }

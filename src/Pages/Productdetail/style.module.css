@@ -1,0 +1,108 @@
+.upper{
+    display:flex;
+    width:90%;
+    height: 600px;
+    border: 1px solid;
+    margin:auto;
+    margin-top: 30px;
+    
+
+}
+.upper1{
+    width: 47%;
+    height: 100%;
+    border: 1px solid green;
+    overflow:hidden;
+    transition: transform .4s;
+}
+.upper1:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.upper1>img{
+    width: 100%;
+    height: 350px;
+    display: block;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.upper2{
+    margin-left: 20px;
+}
+.upper2>h1{
+    font-size:1cm;
+    margin-top: 15px;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+.dis{
+    display: flex;
+    background-image: url("https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Health-Benefits-Product-Inside2.png?v=1598532578");
+    filter: brightness(100%);
+    height: 80px;
+    color: white;
+    /* line-height: 1px; */
+    /* justify-content: center; */
+    align-items: center;
+    font-size:xx-large;
+    font-weight:bolder;
+    padding-left: 70px;
+    
+}
+.btncash{
+    height: 30px;
+    border: 1px solid rgb(46, 44, 44);
+    font-size:xx-large;
+    line-height: 0;
+    padding-top: 0;
+    width: 25px;
+
+}
+.rot{
+    display:flex;
+    height: 300px;
+    width: 88%;
+    margin: auto;
+    border: 1px solid;
+    margin-top: 30px;
+    gap: 10px;
+    padding-left: 7px;
+    
+    
+}
+.angle{
+    position: absolute;
+    /* display: block;
+    align-items: center; */
+    margin-top: 120px;
+    /* margin-top: 150px; */
+    border: 1px solid red;
+    width: 35px;
+    height: 35px;
+    padding-left: 7px;
+    left: 6%;
+
+}
+.notangle{
+    width: 30%;
+    height: 100%;
+    border: 1px solid red;
+    margin-left: 27px;
+    
+
+}
+.notangle>img{
+    width: 100%;
+    height: 80%;
+}
+.angle1{
+    position: absolute;
+    margin-top: 120px;
+    left:91.5%;
+    border:1px solid red;
+    width: 35px;
+    height: 35px;
+    padding-left: 7px;
+}
