@@ -37,7 +37,7 @@ function App() {
           path="/collections/giftsbykimaye"
           element={<GiftsByKimaye></GiftsByKimaye>}
         ></Route>
-        <Route path="/productdetail" element={<Productdetail/>} />
+        <Route path="/collections/allfruits/productdetail" element={<Productdetail/>} />
 
       </Routes>
       <Footer></Footer>

@@ -15,6 +15,7 @@ const FruitCombos = () => {
   //   console.log("fruitcombos:", fruitcombos);
   const handleSendProduct = (idx) => {
     dispatch(sendProducts(idx));
+    navigate("/collections/fruitcombos/productdetail");
   };
 
   useEffect(() => {

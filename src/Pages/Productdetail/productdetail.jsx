@@ -44,7 +44,7 @@ const Productdetail = () => {
   }
  
   useEffect(()=>{
-    let last = pathname.substring(pathname.lastIndexOf('/')+1)
+    let last = pathname.substring(pathname.lastIndexOf('/')-1)
     console.log(last,"last");
     let a = JSON.parse(localStorage.getItem("products"))
     a=a.title
