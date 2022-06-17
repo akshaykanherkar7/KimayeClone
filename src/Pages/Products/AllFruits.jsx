@@ -49,10 +49,10 @@ const AllFruits = () => {
         </p>
       </div>
       <div className="MapBox">
-        {allfruits.map((el, idx) => (
+        {allfruits.map((el) => (
           <div
             // style={{ border: "1px solid" }}
-            onClick={() => handleSendProduct(idx)}
+            onClick={() => handleSendProduct(el)}
           >
             <img
               className="Img"

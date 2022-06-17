@@ -1,7 +1,10 @@
 import React from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getGiftsByKimaye, sendProducts } from "../../Store/Products/products.action";
+import {
+  getGiftsByKimaye,
+  sendProducts,
+} from "../../Store/Products/products.action";
 import { useNavigate } from "react-router-dom";
 import "./Common.css";
 
@@ -44,10 +47,10 @@ const GiftsByKimaye = () => {
         </p>
       </div>
       <div className="MapBox">
-        {giftsbykimaye.map((el, idx) => (
+        {giftsbykimaye.map((el) => (
           <div
             //  style={{ border: "1px solid" }}
-            onClick={() => handleSendProduct(idx)}
+            onClick={() => handleSendProduct(el)}
           >
             <img
               className="Img"
