@@ -67,7 +67,7 @@ const HomePage = () => {
             <div>
               <img
                 onClick={() => navigate("/collections/freshcuts")}
-                style={{ width: "81.8%", marginLeft: "15px" }}
+                style={{ width: "81.8%", marginLeft: "25px" }}
                 src="https://cdn.shopify.com/s/files/1/0449/5225/6667/collections/recommended-3-min_670x.png?v=1614338730"
                 alt=""
               />
