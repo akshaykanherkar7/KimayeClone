@@ -67,6 +67,7 @@ const Productdetail = () => {
     console.log("getcred",getcred)
     dispatch(get_product(getcred))
     dispatch(getarray(getcred));
+    af.current=true;
     
     
     
@@ -77,7 +78,7 @@ const Productdetail = () => {
  
   let fivestar = ()=>{
   
-    if(data.title===undefined)
+    if(af.current==true)
     {
       console.log(1);
        mm.current = Math.floor(Math.random(0,5)*5)+1;
@@ -85,6 +86,7 @@ const Productdetail = () => {
        
       
     }
+    af.current =false;
      
     // mm.current = Math.floor(Math.random(0,5)*5)+1;
       //  setMm(ab);
