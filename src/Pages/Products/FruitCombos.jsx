@@ -15,6 +15,7 @@ const FruitCombos = () => {
   //   console.log("fruitcombos:", fruitcombos);
   const handleSendProduct = (idx) => {
     dispatch(sendProducts(idx));
+    navigate("/collections/fruitcombos/productdetail");
   };
 
   useEffect(() => {
@@ -34,16 +35,16 @@ const FruitCombos = () => {
           marginTop: "25px",
         }}
       >
-        <p onClick={() => navigate("/collections/all-fruits")}>ALL FRUITS</p>
-        <p onClick={() => navigate("/collections/fresh-cuts")}> FRESH CUTS</p>
+        <p onClick={() => navigate("/collections/allfruits")}>ALL FRUITS</p>
+        <p onClick={() => navigate("/collections/freshcuts")}> FRESH CUTS</p>
         <p
           style={{ textDecoration: "underline" }}
-          onClick={() => navigate("/collections/fruit-combos")}
+          onClick={() => navigate("/collections/fruitcombos")}
         >
           {" "}
           FRUIT COMBOS
         </p>
-        <p onClick={() => navigate("/collections/gifts-by-kimaye")}>
+        <p onClick={() => navigate("/collections/giftsbykimaye")}>
           GIFTS BY KIMAYE
         </p>
       </div>

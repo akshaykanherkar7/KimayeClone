@@ -24,25 +24,22 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage></HomePage>} />
         <Route
-          path="/collections/all-fruits"
+          path="/collections/allfruits"
           element={<AllFruits></AllFruits>}
         ></Route>
         <Route
-          path="/collections/fresh-cuts"
+          path="/collections/freshcuts"
           element={<FreshCuts></FreshCuts>}
         ></Route>
         <Route
-          path="/collections/fruit-combos"
+          path="/collections/fruitcombos"
           element={<FruitCombos></FruitCombos>}
         ></Route>
         <Route
-          path="/collections/gifts-by-kimaye"
+          path="/collections/giftsbykimaye"
           element={<GiftsByKimaye></GiftsByKimaye>}
         ></Route>
-        <Route path="/productdetail" element={<Productdetail/>} />
-       <Route path="/Checkout1" element={<Checkout1/>}></Route>
-       <Route path="/Paymentpage" element={<Paymentpage/>}></Route>
-      <Route path="/Sucess" element={<Sucess/>}></Route>
+
       </Routes>
       <Footer></Footer>
 

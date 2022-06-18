@@ -6,6 +6,7 @@ export const get_product = (creds)=>(dispatch)=>{
   
   axios.get(`http://localhost:8080/${creds.categeory}`)
     .then((r)=>{
+      console.log("r.data",r.data)
       let a = r.data.filter((b)=>b.title===creds.title)
       // console.log("its",a)
       dispatch({type:GET_PRODUCT,payload:a[0]})})
