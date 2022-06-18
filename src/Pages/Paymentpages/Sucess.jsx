@@ -20,6 +20,7 @@ SetContact(contacts)
                     </div>
                     <h1 style={{fontSize:"30px",marginBottom:"10px"}}>Order Confirm!!!</h1>
                    <h2 style={{fontSize:"20px",marginBottom:"15px"}}><span>Name:-</span> {contact.fristname+" "+contact.lastname}</h2>
+                   <p style={{marginTop:"-10px" ,marginBottom:"10px",fontSize:"20px",color:"black"}}>Order No:-11061998</p>
                     {/* <h2 className={Styles.amount}></h2> */}
             </div>
             

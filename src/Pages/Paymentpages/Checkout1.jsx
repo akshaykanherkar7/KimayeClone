@@ -17,7 +17,8 @@ const Checkout1 = () => {
 
   const [cart,setCart]=useState([])
   
-  
+  const [gift,setGift]=useState("")
+  const [btn,setBtn]=useState("")
   const handlesubmit=(e)=>{
     e.preventDefault();
     
@@ -43,7 +44,13 @@ useEffect(()=>{
 setCart(carts)
 
 },[setCart])
-
+const hadlegift=(e)=>{
+  const {value}=e.target
+  setGift(value)
+}
+const handlegiftclick=()=>{
+setBtn(gift)
+}
 
 
 
@@ -53,8 +60,16 @@ var x=0;
 var y=0;
 for(let i=0;i<cart.data.length;i++)
 {
-  
-  x=x+cart.number[i]*cart.data[i].price
+  if(gift==="MASAI30")
+  {
+    
+    x=x+(cart.number[i]*cart.data[i].price)-((cart.number[i]*cart.data[i].price*30)/100)
+    
+  }
+  else{
+    x=x+cart.number[i]*cart.data[i].price
+  }
+ 
  
 }
 
@@ -68,6 +83,7 @@ else{
 }
 
 
+console.log(btn)
  return (
     <div className={Styles.main}>
   <div className={Styles.box1}>
@@ -178,7 +194,8 @@ else{
        <p>{el.title}</p>
       </div>
       <div>
-        {cart.number[index]}
+
+        Qty:1 Kg
       </div>
        <div>
        <p>₹{el.price*cart.number[index]}</p>
@@ -188,8 +205,8 @@ else{
             </div>
              <hr  />
              <br />
-             <input type="text" placeholder='  Gift card or discount code' name="coupen"  style={{width:"300px"}}/>
-             <button style={{width:"100px",backgroundColor:"gray",color:"white",marginLeft:"20px"}}>Apply</button>
+             <input type="text" placeholder='  Gift card or discount code' name="coupen"  style={{width:"300px"}} onChange={hadlegift}/>
+             <button style={{width:"100px",backgroundColor:"gray",color:"white",marginLeft:"20px"}} className={Styles.button} onClick={handlegiftclick}>Apply</button>
              <br />
              <br />
              <hr />
