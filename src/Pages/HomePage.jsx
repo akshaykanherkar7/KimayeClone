@@ -55,6 +55,7 @@ const HomePage = () => {
             <div>
               <img
                 onClick={() => navigate("/collections/allfruits")}
+                style={{ width: "90%", marginLeft: "25px" }}
                 src="https://cdn.shopify.com/s/files/1/0449/5225/6667/collections/recommended-1-min_670x.png?v=1614338437"
                 alt=""
               />
