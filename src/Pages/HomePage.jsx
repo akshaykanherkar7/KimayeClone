@@ -67,7 +67,7 @@ const HomePage = () => {
             <div>
               <img
                 onClick={() => navigate("/collections/freshcuts")}
-                style={{ width: "82.8%" }}
+                style={{ width: "81.8%", marginLeft: "15px" }}
                 src="https://cdn.shopify.com/s/files/1/0449/5225/6667/collections/recommended-3-min_670x.png?v=1614338730"
                 alt=""
               />
@@ -211,8 +211,6 @@ const HomePage = () => {
       </div>
       {/* THE SECRET’S OUT: WE’RE SUPER SAFE  */}
       <div className={styles.secretContainer}>
-      
-      
         <h1
           style={{ fontSize: "35px", textAlign: "center", fontWeight: "bold" }}
         >
@@ -223,8 +221,7 @@ const HomePage = () => {
         >
           Witness Our Journey
         </h3>
-    
-    
+
         <div className={styles.Carosel}>
           <Carousel autoPlay>
             <div
@@ -236,8 +233,6 @@ const HomePage = () => {
                 margin: "auto",
               }}
             >
-             
-             
               <div style={{ marginTop: "100px", marginLeft: "30px" }}>
                 <h1 style={{ textAlign: "start", fontSize: "30px" }}>
                   Groen responsibly
@@ -259,8 +254,7 @@ const HomePage = () => {
                 src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/secret-1_guetzli-min.jpg?v=1614755149"
               />
             </div>
-          
-          
+
             <div
               style={{
                 display: "flex",
@@ -270,8 +264,6 @@ const HomePage = () => {
                 margin: "auto",
               }}
             >
-              
-              
               <div style={{ marginTop: "100px", marginLeft: "30px" }}>
                 <h1 style={{ textAlign: "start", fontSize: "30px" }}>
                   Handpicked at farms
@@ -297,8 +289,7 @@ const HomePage = () => {
                 src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/secret-2_guetzli-min.jpg?v=1622009925"
               />
             </div>
-            
-            
+
             <div
               style={{
                 display: "flex",
@@ -308,9 +299,6 @@ const HomePage = () => {
                 margin: "auto",
               }}
             >
-             
-             
-             
               <div style={{ marginTop: "100px", marginLeft: "30px" }}>
                 <h1 style={{ textAlign: "start", fontSize: "30px" }}>
                   Earning the Kimaye badge
@@ -332,8 +320,7 @@ const HomePage = () => {
                 src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/secret-3_guetzli-min.jpg?v=1614755148"
               />
             </div>
-        
-        
+
             <div
               style={{
                 display: "flex",
@@ -343,8 +330,6 @@ const HomePage = () => {
                 margin: "auto",
               }}
             >
-           
-           
               <div style={{ marginTop: "100px", marginLeft: "30px" }}>
                 <h1 style={{ textAlign: "start", fontSize: "30px" }}>
                   Zero-touch procesess
@@ -366,9 +351,7 @@ const HomePage = () => {
                 src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/secret-4_guetzli-min.jpg?v=1622009925"
               />
             </div>
-           
-           
-           
+
             <div
               style={{
                 display: "flex",
@@ -407,8 +390,7 @@ const HomePage = () => {
       </div>
 
       {/* JAZZ IT UP WITH FRUITS */}
-     
-     
+
       <div
         style={{
           border: "1px solid",
@@ -417,7 +399,6 @@ const HomePage = () => {
           borderColor: "#f6d153",
         }}
       >
-       
         <div style={{ marginTop: "60px", marginBottom: "60px" }}>
           <h1
             style={{
@@ -428,13 +409,11 @@ const HomePage = () => {
           >
             JAZZ IT UP WITH FRUITS
           </h1>
-          
-          
+
           <div>
             <Carousel autoPlay>
               <div
                 style={{
-                 
                   display: "flex",
                   // justifyContent: "space-evenly",
                   justifyContent: "center",
@@ -445,8 +424,7 @@ const HomePage = () => {
                 }}
               >
                 <img
-               
-               style={{ width: "38%", borderRadius: "30px" }}
+                  style={{ width: "38%", borderRadius: "30px" }}
                   src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/AdobeStock_334275008-2-opt2-1900px_720x.jpg?v=1627119119"
                 />
                 <img
@@ -456,7 +434,6 @@ const HomePage = () => {
               </div>
               <div
                 style={{
-                
                   display: "flex",
                   // justifyContent: "space-evenly",
                   justifyContent: "center",
@@ -467,8 +444,7 @@ const HomePage = () => {
                 }}
               >
                 <img
-               
-               style={{ width: "38%", borderRadius: "30px" }}
+                  style={{ width: "38%", borderRadius: "30px" }}
                   src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/AdobeStock_77286816-min__1625567830_114.143.85.97_720x.jpg?v=1625638895"
                 />
                 <img
@@ -478,7 +454,6 @@ const HomePage = () => {
               </div>
               <div
                 style={{
-               
                   display: "flex",
                   // justifyContent: "space-evenly",
                   justifyContent: "center",
@@ -498,8 +473,7 @@ const HomePage = () => {
                 />
               </div>
               <div
-              
-              style={{
+                style={{
                   display: "flex",
                   // justifyContent: "space-evenly",
                   justifyContent: "center",
@@ -509,7 +483,6 @@ const HomePage = () => {
                   marginTop: "40px",
                 }}
               >
-              
                 <img
                   style={{ width: "38%", borderRadius: "30px" }}
                   src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/pomegranate-min_720x.jpg?v=1614342435"
