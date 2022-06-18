@@ -38,6 +38,9 @@ function App() {
           element={<GiftsByKimaye></GiftsByKimaye>}
         ></Route>
         <Route path="/collections/allfruits/productdetail" element={<Productdetail/>} />
+        <Route path="/collections/freshcuts/productdetail" element={<Productdetail/>} />
+        <Route path="/collections/fruitcombos/productdetail" element={<Productdetail/>} />
+        <Route path="/collections/giftsbykimaye/productdetail" element={<Productdetail/>} />
 
       </Routes>
       <Footer></Footer>
