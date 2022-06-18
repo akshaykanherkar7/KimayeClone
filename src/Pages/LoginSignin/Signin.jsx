@@ -61,6 +61,8 @@ const Signin = () => {
       setFlag(true);
     } else {
       setFlag(false);
+      localStorage.setItem("lastname", JSON.stringify(lastname));
+      localStorage.setItem("firstname", JSON.stringify(firstname));
       localStorage.setItem("Email", JSON.stringify(email));
       localStorage.setItem("Password", JSON.stringify(password));
 
@@ -80,6 +82,7 @@ const Signin = () => {
       alert("Login Successfull");
       setIsAuth(true);
       onClose();
+      navigate("/myaccount");
     } else {
       alert("Login Failed");
     }

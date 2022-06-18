@@ -16,6 +16,7 @@ import Checkout1 from "./Pages/Paymentpages/Checkout1";
 import { Paymentpage } from "./Pages/Paymentpages/Paymentpage";
 import Sucess from "./Pages/Paymentpages/Sucess";
 import Cart from "./Pages/Cart/cart";
+import MyAccount from "./Pages/LoginSignin/MyAccount";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
         <Route path="/collections/fruitcombos/productdetail" element={<Productdetail/>} />
         <Route path="/collections/giftsbykimaye/productdetail" element={<Productdetail/>} />
         <Route path="/cart" element={<Cart/>}/>
+        <Route path="/myaccount" element={<MyAccount/>}></Route>
       </Routes>
       <Footer></Footer>
 

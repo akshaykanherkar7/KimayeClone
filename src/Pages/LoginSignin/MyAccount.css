@@ -39,3 +39,15 @@ background-color: #e0e0dd;
     margin-right: 5px;
     color: green;
 }
+.bottomnamediv {
+    margin-top: 80px;
+}
+.boldtagname {
+    font-weight: 600;
+}
+.bordergreyafterdiv {
+    border: 0.25px solid rgb(226, 225, 225);
+    width: 400px;
+    margin-left: 300px;
+    
+}
