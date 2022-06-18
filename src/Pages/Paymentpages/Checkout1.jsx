@@ -212,7 +212,7 @@ console.log(btn)
                <div className={Styles.total}>
               <div>
                  <h2> Subtotal</h2>
-                 <h2>₹{x}</h2>
+                 <h2>₹{Math.floor(x)}</h2>
                  </div>
               <div>
                 <h2>Shipping Charges</h2>
@@ -223,7 +223,7 @@ console.log(btn)
               <div>
                 <h1>Total</h1>
                 <h1><span>INR </span>
-                ₹{y} </h1>
+                ₹{Math.floor(y)} </h1>
               </div>
                </div>
 
