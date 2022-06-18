@@ -60,11 +60,11 @@ var x=0;
 var y=0;
 for(let i=0;i<cart.data.length;i++)
 {
-  if(gift==="MASAI30")
+  if(btn==="MASAI30")
   {
     
     x=x+(cart.number[i]*cart.data[i].price)-((cart.number[i]*cart.data[i].price*30)/100)
-    
+
   }
   else{
     x=x+cart.number[i]*cart.data[i].price
@@ -188,16 +188,15 @@ console.log(btn)
     {cart.data && cart.data.map((el,index)=>{
      return <div className={Styles.cart}>
       <div>
-      <img src={el.image} />
+      <img src={el.image} alt=""/>
       </div>
        <div>
        <p>{el.title}</p>
+       Qty: {cart.number[index]} Kg
       </div>
-      <div>
-        {cart.number[index]}
-      </div>
+      
        <div>
-       <p>₹{el.price*cart.number[index]}</p>
+       <p>₹{el.price}</p>
        </div>
       </div>
     })}
