@@ -3,10 +3,12 @@ import {
   GET_FRESH_CUTS,
   GET_FRUIT_COMBOS,
   GET_GIFTS_BY_KIMAYE,
+  GET_LOADING,
   SEND_PRODUCTS,
 } from "./products.action.types";
 
 const initialState = {
+  loading: false,
   allfruits: [],
   freshcuts: [],
   fruitcombos: [],
@@ -15,10 +17,14 @@ const initialState = {
 
 export const productsReducer = (state = initialState, { type, payload }) => {
   switch (type) {
+    case GET_LOADING: {
+      return {...state, loading: true}
+    }
     case GET_ALL_FRUITS: {
       //   console.log(payload);
       return {
         ...state,
+        loading:false,
         allfruits: payload,
       };
     }
@@ -26,6 +32,7 @@ export const productsReducer = (state = initialState, { type, payload }) => {
     case GET_FRESH_CUTS: {
       return {
         ...state,
+        loading:false,
         freshcuts: payload,
       };
     }
@@ -33,6 +40,7 @@ export const productsReducer = (state = initialState, { type, payload }) => {
     case GET_FRUIT_COMBOS: {
       return {
         ...state,
+        loading:false,
         fruitcombos: payload,
       };
     }
@@ -40,6 +48,7 @@ export const productsReducer = (state = initialState, { type, payload }) => {
     case GET_GIFTS_BY_KIMAYE: {
       return {
         ...state,
+        loading: false,
         giftsbykimaye: payload,
       };
     }

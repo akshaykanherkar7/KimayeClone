@@ -1,3 +1,6 @@
+
+export const GET_LOADING = "get/loading"
+
 export const GET_ALL_FRUITS = "get/allfruits";
 export const GET_FRESH_CUTS = "get/freshcuts";
 export const GET_FRUIT_COMBOS = "get/fruitcombos";
