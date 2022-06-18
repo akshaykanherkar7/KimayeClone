@@ -39,7 +39,15 @@ function App() {
           path="/collections/giftsbykimaye"
           element={<GiftsByKimaye></GiftsByKimaye>}
         ></Route>
+     <Route path="/productdetail" element={<Productdetail/>} />
+       <Route path="/Checkout1" element={<Checkout1/>}></Route>
+       <Route path="/Paymentpage" element={<Paymentpage/>}></Route>
+      <Route path="/Sucess" element={<Sucess/>}></Route>
 
+        <Route path="/collections/allfruits/productdetail" element={<Productdetail/>} />
+        <Route path="/collections/freshcuts/productdetail" element={<Productdetail/>} />
+        <Route path="/collections/fruitcombos/productdetail" element={<Productdetail/>} />
+        <Route path="/collections/giftsbykimaye/productdetail" element={<Productdetail/>} />
       </Routes>
       <Footer></Footer>
 
