@@ -4,10 +4,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { getFreshCuts, sendProducts } from "../../Store/Products/products.action";
 import { useNavigate } from "react-router-dom";
 import "./Common.css";
+import { Spinner, Stack } from "@chakra-ui/react";
 
 const FreshCuts = () => {
   const dispatch = useDispatch();
-  const { freshcuts } = useSelector((state) => state.products);
+  const { freshcuts,loading } = useSelector((state) => state.products);
   const navigate = useNavigate();
   //   console.log("freshcuts:", freshcuts);
   const handleSendProduct = (idx) => {
@@ -19,6 +20,21 @@ const FreshCuts = () => {
     dispatch(getFreshCuts());
   }, [dispatch]);
 
+  if (loading)
+    return (
+      <div
+        style={{
+          width: "fit-content",
+          margin: "auto",
+          marginTop: "45px",
+          marginBottom: "45px",
+        }}
+      >
+        <Stack direction="row" spacing={4}>
+          <Spinner size="xl" />
+        </Stack>
+      </div>
+    );
   return (
     <div>
       <div
@@ -96,19 +112,19 @@ const FreshCuts = () => {
           marginBottom: "30px",
         }}
       >
-        <p onClick={() => navigate("/collections/all-fruits")}>ALL FRUITS</p>
+        <p onClick={() => navigate("/collections/allfruits")}>ALL FRUITS</p>
         <p
           style={{ textDecoration: "underline" }}
-          onClick={() => navigate("/collections/fresh-cuts")}
+          onClick={() => navigate("/collections/freshcuts")}
         >
           {" "}
           FRESH CUTS
         </p>
-        <p onClick={() => navigate("/collections/fruit-combos")}>
+        <p onClick={() => navigate("/collections/fruitcombos")}>
           {" "}
           FRUIT COMBOS
         </p>
-        <p onClick={() => navigate("/collections/gifts-by-kimaye")}>
+        <p onClick={() => navigate("/collections/giftsbykimaye")}>
           GIFTS BY KIMAYE
         </p>
       </div>
