@@ -27,6 +27,9 @@ table{
     padding-top: 20px;
     padding-bottom: 30px;
 }
+.tablehead>th:nth-child(1){
+    width: 50px;
+}
 .tablehead>th:nth-child(2){
     width: 100px;
 }
@@ -40,12 +43,14 @@ table{
 .delbtn>button{
     background-color: black;
     color: white;
+    width: 23px;
     height: 23px;
-    border-radius: 90%;
+    border-radius: 50%;
 }
 
 .pImg>img{
     height: 80px;
+    width: 80px;
 }
 
 .qty{
@@ -64,6 +69,7 @@ table{
     margin: auto;
 }
 .qty>button{
+    width: 20px;
     background-color: white;
     border: 1px solid rgb(209, 208, 208);
 }
@@ -77,12 +83,17 @@ table{
     width: 300px;
 }
 .loc{
+    margin-top: 10px;
     color: rgb(90, 90, 90);
+    margin-bottom: 50px;
 }
 
+.inputDiv>p{
+    margin: 15px 0px;
+}
 
 .checkoutDiv{
-    background-color: rgb(247, 245, 245);
+    background-color: rgb(235, 231, 231);
     width: 1140px;
     height: 488px;
     margin: auto;
@@ -92,6 +103,7 @@ table{
 
 .specialInstruction{
     width: 50%;
+    
 }
 textarea{
     width: 500px;
@@ -103,13 +115,20 @@ textarea{
     width: 50%;
 }
 
+.cartHeadTitle{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
 .totalDiv{
     height: 133px;
     width: 500px;
     padding: 10px;
+    margin-bottom: 50px;
     background-color: white;
 }
 .totalPrice{
+    margin: 20px 0px;
     display: flex;
     justify-content: space-between;
 }

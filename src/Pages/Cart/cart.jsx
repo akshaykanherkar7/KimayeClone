@@ -1,6 +1,8 @@
 import React, {  useState } from "react";
 import { useNavigate } from "react-router-dom";
 import style from "../Cart/cart.module.css"
+
+import { Heading } from "@chakra-ui/react";
 const Cart = () => {
   // let prod = JSON.parse(localStorage.getItem("cartitem")) || [];
   const [prod, setProd] = useState(
@@ -45,14 +47,21 @@ const Cart = () => {
   //   localStorage.setItem("ProdData", JSON.stringify(product));
 
   let SubTotal = 0;
+
   for (let i = 0; i < prod.data.length; i++) {
     SubTotal += prod.data[i].price * prod.number[i];
   }
-  console.log(prod);
+  const handelDlt=(index,prod)=>{
 
-  
+    let newprod = prod.data.filter((x,i) => {
+      return i !== index;
+    });
+    setProd({...prod,data:[...newprod]});
+    localStorage.setItem("cartitem", JSON.stringify(newprod));
+  }
+
+
   const handelInc = (cartQty, index, prod) => {
-    console.log(cartQty);
     for (let i = 0; i < prod.number.length; i++) {
       if (i === index) {
         prod.number[i] = prod.number[i] + 1;
@@ -61,8 +70,9 @@ const Cart = () => {
     setProd({...prod,number:[...prod.number]})
     localStorage.setItem("cartitem",JSON.stringify(prod))
   };
+
+
   const handelDec = (cartQty,index,prod) => {
-    console.log(cartQty);
     for (let i = 0; i < prod.number.length; i++) {
       if (i === index) {
         prod.number[i] = prod.number[i] -1;
@@ -72,6 +82,7 @@ const Cart = () => {
     localStorage.setItem("cartitem",JSON.stringify(prod))
   };
 
+  
   return (
     <>
       <div className={style.cartBody}>
@@ -96,7 +107,9 @@ const Cart = () => {
                   <tr key={index} style={{ marginBottom: "100px" }}>
                     <td>
                       <div className={style.delbtn}>
-                        <button>x</button>
+                        <button onClick={() => handelDlt(index, prod)}>
+                          X
+                        </button>
                       </div>
                     </td>
                     <td>
@@ -112,7 +125,7 @@ const Cart = () => {
                         </div>
                       </div>
                     </td>
-                    <td>{el.price}</td>
+                    <td>₹ {el.price}</td>
                     <td>
                       <div className={style.qty}>
                         <button
@@ -133,7 +146,7 @@ const Cart = () => {
                       </div>
                     </td>
                     <td>
-                      <h3>{el.price * prod.number[index]}</h3>
+                      <h3>₹ {el.price * prod.number[index]}</h3>
                     </td>
                   </tr>
                 );
@@ -144,7 +157,7 @@ const Cart = () => {
 
         {/* Input div */}
 
-        <div>
+        <div className={style.inputDiv}>
           <p>Pick a Delivery date:</p>
           <input className={style.dateInput} type="date" name="input" />
           <p>Choose a time:</p>
@@ -153,30 +166,34 @@ const Cart = () => {
           </select>
         </div>
         <div>
-          <h2 className={style.loc}>
+          <Heading size="md" className={style.loc}>
             Your current delivery location is Mumbai
-          </h2>
+          </Heading>
         </div>
 
         {/* Checkout div */}
         <div className={style.checkoutDiv}>
           <div className={style.specialInstruction}>
-            <h1>Special Instruction</h1>
+            <Heading className={style.cartHeadTitle} size="lg">
+              Special Instruction
+            </Heading>
             <div>
               <textarea></textarea>
             </div>
           </div>
           <div className={style.cartTotal}>
-            <h1>CART TOTALS</h1>
+            <Heading className={style.cartHeadTitle} size="lg">
+              CART TOTALS
+            </Heading>
             <div className={style.totalDiv}>
               <div className={style.totalPrice}>
-                <h4>SubTotal</h4>
-                <p>{SubTotal}</p>
+                <Heading size="sm">Subtotal</Heading>
+                <Heading size="sm">₹ {SubTotal}</Heading>
               </div>
               <hr></hr>
               <div className={style.totalPrice}>
-                <h2>Total</h2>
-                <h2>{SubTotal}</h2>
+                <Heading size="md">Total</Heading>
+                <Heading size="md">₹ {SubTotal}</Heading>
               </div>
             </div>
             <div className={style.congoDiv}>
