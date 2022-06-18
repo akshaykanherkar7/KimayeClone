@@ -194,8 +194,7 @@ console.log(btn)
        <p>{el.title}</p>
       </div>
       <div>
-
-        Qty:1 Kg
+        {cart.number[index]}
       </div>
        <div>
        <p>₹{el.price*cart.number[index]}</p>
