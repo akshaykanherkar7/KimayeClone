@@ -7,6 +7,7 @@ import {useSelector,useDispatch} from "react-redux"
 import {useParams} from "react-router-dom"
 import { cartdata, cartdelivery, countdec, countinc, countupdate, getarray, get_product } from '../../Store/productdetail/product.action';
 import styles from "./style.module.css";
+import { Link } from 'react-router-dom';
 import {
   Drawer,
   DrawerBody,
@@ -175,8 +176,8 @@ console.log(Cartdata,"cartdata")
                   </div>
                 </div>
               ))}
-
-              <button style={{width:"150px",height:"30px",border:"1px solid red",marginTop:"20px"}} onClick={sendtokart} >Checkout</button>
+              <Link to="/Checkout1"> <button style={{width:"150px",height:"30px",border:"1px solid red",marginTop:"20px"}} onClick={sendtokart} >Checkout</button></Link>
+             
               
               
             </DrawerBody>

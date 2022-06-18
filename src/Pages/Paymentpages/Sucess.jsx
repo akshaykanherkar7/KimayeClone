@@ -1,8 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import { Navigate, useNavigate } from 'react-router-dom'
 import Styles from "./Checkout.module.css"
+
 const Sucess = () => {
+  const navigate=useNavigate();
   const [contact,SetContact]=useState([])
   useEffect(()=>{
     const contacts=JSON.parse(localStorage.getItem("form"))
@@ -19,7 +22,8 @@ SetContact(contacts)
                    <h2 style={{fontSize:"20px",marginBottom:"15px"}}><span>Name:-</span> {contact.fristname+" "+contact.lastname}</h2>
                     {/* <h2 className={Styles.amount}></h2> */}
             </div>
-            <button className={Styles.btn}>Go TO Home</button>
+            
+            <button className={Styles.btn} onClick={()=>navigate("/")}>Go TO Home</button>
            
            </div>
     </div>
