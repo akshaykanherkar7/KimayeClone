@@ -169,7 +169,7 @@ else{
           <div>
             <div>
             
-    {cart.data && cart.data.map((el)=>{
+    {cart.data && cart.data.map((el,index)=>{
      return <div className={Styles.cart}>
       <div>
       <img src={el.image} />
@@ -178,10 +178,10 @@ else{
        <p>{el.title}</p>
       </div>
       <div>
-        Qty:1
+        {cart.number[index]}
       </div>
        <div>
-       <p>₹{el.price}</p>
+       <p>₹{el.price*cart.number[index]}</p>
        </div>
       </div>
     })}

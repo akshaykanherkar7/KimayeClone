@@ -171,7 +171,7 @@ const Navbar = () => {
             {/* Drawer    */}
           </div>
           <div>
-            <button>
+            <button onClick={()=>{navigate('/cart')}}>
               <i
                 style={{ fontSize: "20px" }}
                 class="fa-solid fa-bag-shopping"
