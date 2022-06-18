@@ -290,6 +290,7 @@ const Signin = () => {
                 <label>Password</label>
                 <label style={{ color: "red" }}>*</label>
                 <Input
+                  type="password"
                   placeholder="enter password"
                   onChange={(e) => setLoginPass(e.target.value)}
                 />
