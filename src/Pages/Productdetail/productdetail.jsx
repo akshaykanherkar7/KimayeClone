@@ -225,7 +225,7 @@ useEffect(()=>{
                   </div>
                 </div>
               ))}
-              <Link to="/Checkout1"> <button style={{width:"150px",height:"30px",border:"1px solid red",marginTop:"20px"}} onClick={sendtokart} >Checkout</button></Link>
+              <Link to="/cart"> <button style={{width:"150px",height:"30px",border:"1px solid red",marginTop:"20px"}} onClick={sendtokart} >Checkout</button></Link>
              
               
               

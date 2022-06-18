@@ -1,0 +1,160 @@
+.cartBody{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.carthead{
+    background-color: #437111;
+    height: 93.78px;
+    color: white;
+}
+.carthead>h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+}
+.productlist{
+    width: 80%;
+    margin: auto;
+}
+table{
+    width: 100%;
+}
+.tablehead{
+    padding-bottom: 100px;
+    font-size: 110%;
+}
+.tablehead>th{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.tablehead>th:nth-child(2){
+    width: 100px;
+}
+.tablehead>th:nth-child(3){
+    text-align: left;
+}
+.productData{
+    text-align: left;
+    line-height: 10px;
+}
+.delbtn>button{
+    background-color: black;
+    color: white;
+    height: 23px;
+    border-radius: 90%;
+}
+
+.pImg>img{
+    height: 80px;
+}
+
+.qty{
+    display: flex;
+    border:1px solid rgb(212, 211, 211);
+    justify-content: center;
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    height:40px
+}
+.qty>p{
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    margin: auto;
+}
+.qty>button{
+    background-color: white;
+    border: 1px solid rgb(209, 208, 208);
+}
+
+.dateInput{
+    height: 40px;
+    width: 300px;
+}
+.selectInput{
+    height: 40px;
+    width: 300px;
+}
+.loc{
+    color: rgb(90, 90, 90);
+}
+
+
+.checkoutDiv{
+    background-color: rgb(247, 245, 245);
+    width: 1140px;
+    height: 488px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.specialInstruction{
+    width: 50%;
+}
+textarea{
+    width: 500px;
+    height: 173px;
+    max-width: 500px;
+    padding: 10px;
+}
+.cartTotal{
+    width: 50%;
+}
+
+.totalDiv{
+    height: 133px;
+    width: 500px;
+    padding: 10px;
+    background-color: white;
+}
+.totalPrice{
+    display: flex;
+    justify-content: space-between;
+}
+
+.congoDiv{
+    text-align: left;
+    place-items: center;   
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    height: 31px;
+    width: 500px;
+    /* padding: 10px; */
+    background-color: #FF4B4B;
+}
+
+.checkoutBtn{
+    width: 520px;
+    margin-bottom: 20px;
+}
+.checkoutBtn>button{
+    margin-left: 0px;
+    font-size: 120%;
+    border: 0px;
+    width: 520px;
+    height: 50px;
+    background-color: #98CB4C;
+    color: white;
+    padding: 0px 10px;
+}
+
+.continueShopping{
+    width: 520px;
+    margin-bottom: 20px;
+
+}
+
+.continueShopping>button{
+    margin-left: 0px;
+    font-size: 120%;
+    border: 0px;
+    width: 520px;
+    height: 50px;
+    background-color: #98CB4C;
+    color: white;
+    padding: 0px 10px;
+}
