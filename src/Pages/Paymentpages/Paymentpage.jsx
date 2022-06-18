@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
 import Styles from "./Checkout.module.css"
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 export const Paymentpage = () => {
   
   const [contact,SetContact]=useState([])
   const [cart,setCart]=useState([])
-
+  const [gift,setGift]=useState("")
+  const [btn,setBtn]=useState("")
+  const navigate=useNavigate()
   useEffect(()=>{
 const contact= JSON.parse(localStorage.getItem("form"))
 if(contact)
@@ -22,7 +24,13 @@ if(contact)
   
   },[setCart])
   
-  
+  const hadlegift=(e)=>{
+    const {value}=e.target
+    setGift(value)
+  }
+  const handlegiftclick=()=>{
+  setBtn(gift)
+  }
   
   
   if(cart.data!==undefined)
@@ -32,7 +40,15 @@ if(contact)
   for(let i=0;i<cart.data.length;i++)
   {
     
+    if(gift==="MASAI30")
+  {
+    
+    x=x+(cart.number[i]*cart.data[i].price)-((cart.number[i]*cart.data[i].price*30)/100)
+    
+  }
+  else{
     x=x+cart.number[i]*cart.data[i].price
+  }
    
   }
   
@@ -70,7 +86,7 @@ if(contact)
                </div>
                <div>
                 <p style={{fontSize:"20px",color:"gray"}}>Method</p>
-                <p>Free Shipping</p>
+                <p>{500>=x ?  "Your order is below ₹500" :"Free Shipping " }</p>
                </div>
              </div>
       
@@ -120,7 +136,7 @@ if(contact)
                 </div>
                
                 <div>
-                <input type="radio" className={Styles.radiobtn}  value="	Use a different billing address"/>
+                <input type="radio" className={Styles.radiobtn}  value="	Use a different billing address" onChange={()=>navigate("/Checkout1")}/>
                   <p>	Use a different billing address</p>
                 </div>
                 
@@ -150,7 +166,7 @@ if(contact)
        <p>{el.title}</p>
       </div>
       <div>
-        Qty:1
+        Qty:1 Kg
       </div>
        <div>
        <p>₹{el.price}</p>
@@ -160,8 +176,8 @@ if(contact)
               </div>
                <hr  />
                <br />
-               <input type="text" placeholder='  Gift card or discount code' name="coupen"  style={{width:"300px"}}/>
-               <button style={{width:"100px",backgroundColor:"gray",color:"white",marginLeft:"20px"}}>Apply</button>
+               <input type="text" placeholder='  Gift card or discount code' name="coupen"  style={{width:"300px"}} onChange={hadlegift}/>
+               <button style={{width:"100px",backgroundColor:"gray",color:"white",marginLeft:"20px"}} className={Styles.button} onClick={handlegiftclick}>Apply</button>
                <br />
                <br />
                <hr />
