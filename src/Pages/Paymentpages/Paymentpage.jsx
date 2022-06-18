@@ -35,12 +35,13 @@ if(contact)
   
   if(cart.data!==undefined)
   {
+    
   var x=0;
   var y=0;
   for(let i=0;i<cart.data.length;i++)
   {
-    
-    if(gift==="MASAI30")
+     
+    if(btn==="MASAI30")
   {
     
     x=x+(cart.number[i]*cart.data[i].price)-((cart.number[i]*cart.data[i].price*30)/100)
@@ -136,7 +137,7 @@ if(contact)
                 </div>
                
                 <div>
-                <input type="radio" className={Styles.radiobtn}  value="	Use a different billing address" onChange={()=>navigate("/Checkout1")}/>
+                <input type="radio" className={Styles.radiobtn}  value="	Use a different billing address" onChange={()=>navigate("/checkout")}/>
                   <p>	Use a different billing address</p>
                 </div>
                 
@@ -157,17 +158,16 @@ if(contact)
             <div className={Styles.box2}>
             <div>
               <div>
-              {cart.data && cart.data.map((el)=>{
+              {cart.data && cart.data.map((el,index)=>{
      return <div className={Styles.cart}>
       <div>
-      <img src={el.image} />
+      <img src={el.image} alt="image" />
       </div>
        <div>
        <p>{el.title}</p>
+       Qty: {cart.number[index]}Kg
       </div>
-      <div>
-        Qty:1 Kg
-      </div>
+      
        <div>
        <p>₹{el.price}</p>
        </div>

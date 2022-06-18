@@ -183,9 +183,7 @@ padding-top: 10px;
 
 
 }
-.body{
-  /* background-color: #f8f5f4; */
-}
+
 .recpCont{
   width: 400px;
   margin: auto;
@@ -214,6 +212,7 @@ padding-top: 10px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+  gap:20px
 }
 .cart>div>img{
   width:80px;
