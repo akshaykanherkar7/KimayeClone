@@ -34,7 +34,9 @@ const Productdetail = () => {
   let [arrshow,setArrshow] = useState([])
   let categeory = "fruitcombos";
   let {Countupdate} = useSelector((state)=>state.product)
-  let mm = useRef();
+  // let [mm,setMm] = useState(1);
+  let mm = useRef()
+  let af = useRef(true);
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
   let history = window.location.href;
@@ -65,6 +67,7 @@ const Productdetail = () => {
     console.log("getcred",getcred)
     dispatch(get_product(getcred))
     dispatch(getarray(getcred));
+    af.current=true;
     
     
     
@@ -72,18 +75,24 @@ const Productdetail = () => {
     
 
   },[])
-  
+ 
   let fivestar = ()=>{
   
-    if(data.title==undefined)
+    if(af.current==true)
     {
       console.log(1);
        mm.current = Math.floor(Math.random(0,5)*5)+1;
+      
        
       
     }
+    af.current =false;
+     
+    // mm.current = Math.floor(Math.random(0,5)*5)+1;
+      //  setMm(ab);
+    console.log("mmmmm",mm);
     let arr = [];
-      // console.log(m);
+     
       for(let i=0;i<mm.current;i++)
       {
         arr.push(<p><i class="fa-solid fa-star"></i></p>)
