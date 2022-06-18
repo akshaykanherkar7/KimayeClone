@@ -199,7 +199,7 @@ useEffect(()=>{
               {count}
               <button className={styles.btncash} onClick={()=>handleclick("dec")} >-</button>
             </div>
-            <button style={{border:"1px solid grey",borderRadius:"5px",width:"80px",height:"35px"}} ref={btnRef} colorScheme='teal' onClick={handlecart} >Add to cart</button>
+            <button style={{border:"1px solid grey",borderRadius:"5px",width:"150px",height:"35px"}} ref={btnRef} colorScheme='teal' onClick={handlecart} >Add to cart</button>
           </div>
         </div>
         <>
@@ -232,10 +232,8 @@ useEffect(()=>{
             </DrawerBody>
   
             <DrawerFooter>
-              <Button variant='outline' mr={3} onClick={onClose}>
-                Cancel
-              </Button>
-              <Button colorScheme='blue'>Save</Button>
+              
+              
             </DrawerFooter>
           </DrawerContent>
         </Drawer>
