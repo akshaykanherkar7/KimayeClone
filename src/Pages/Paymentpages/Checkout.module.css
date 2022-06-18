@@ -51,15 +51,16 @@ select{
   width:300px
   
 }
-button{
+.button{
   
   width: 300px;
   height: 40px;
   border: 1px solid; 
 }
-span{
+.span{
   color: red;
   margin-left: 20px;
+
 }
 .box2>div{
   margin-top: 60px;
@@ -183,7 +184,7 @@ padding-top: 10px;
 
 }
 .body{
-  background-color: #f8f5f4;
+  /* background-color: #f8f5f4; */
 }
 .recpCont{
   width: 400px;
@@ -196,6 +197,8 @@ padding-top: 10px;
   /* color: #fff; */
   color: rgb(0, 231, 0);
   border-radius: 10px;
+  margin-bottom: 130px;
+  
 }
 .btn{
   border: none;
@@ -205,4 +208,14 @@ padding-top: 10px;
   background-color: blue;
   color: white;
   cursor: pointer;
+}
+.cart{
+  width: 390px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.cart>div>img{
+  width:80px;
+  height: 60px;
 }

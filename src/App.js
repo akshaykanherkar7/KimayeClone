@@ -12,7 +12,9 @@ import AllFruits from "./Pages/Products/AllFruits";
 import FreshCuts from "./Pages/Products/FreshCuts";
 import FruitCombos from "./Pages/Products/FruitCombos";
 import GiftsByKimaye from "./Pages/Products/GiftsByKimaye";
-
+import Checkout1 from "./Pages/Paymentpages/Checkout1";
+import { Paymentpage } from "./Pages/Paymentpages/Paymentpage";
+import Sucess from "./Pages/Paymentpages/Sucess";
 
 function App() {
   return (
@@ -37,11 +39,15 @@ function App() {
           path="/collections/giftsbykimaye"
           element={<GiftsByKimaye></GiftsByKimaye>}
         ></Route>
+     <Route path="/productdetail" element={<Productdetail/>} />
+       <Route path="/Checkout1" element={<Checkout1/>}></Route>
+       <Route path="/Paymentpage" element={<Paymentpage/>}></Route>
+      <Route path="/Sucess" element={<Sucess/>}></Route>
+
         <Route path="/collections/allfruits/productdetail" element={<Productdetail/>} />
         <Route path="/collections/freshcuts/productdetail" element={<Productdetail/>} />
         <Route path="/collections/fruitcombos/productdetail" element={<Productdetail/>} />
         <Route path="/collections/giftsbykimaye/productdetail" element={<Productdetail/>} />
-
       </Routes>
       <Footer></Footer>
 

@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import Styles from "./Checkout.module.css"
+
 const Checkout1 = () => {
   const [form,setForm]=useState({
     fristname:"",
@@ -14,7 +15,7 @@ const Checkout1 = () => {
     number:"",
   })
 
-  
+  const [cart,setCart]=useState([])
   
   
   const handlesubmit=(e)=>{
@@ -33,13 +34,39 @@ const handleonclick=(e)=>{
 }
 const handlebtn=(form)=>{
 
-  // setBtn(form)
-  // setForm({
-  //   ...form,
-  //   [name]:value,
-  // })
+  
   localStorage.setItem("form",JSON.stringify(form));
 }
+useEffect(()=>{
+  
+  const carts=JSON.parse(localStorage.getItem("cartitem"))
+setCart(carts)
+
+},[setCart])
+
+
+
+
+if(cart.data!==undefined)
+{
+var x=0;
+var y=0;
+for(let i=0;i<cart.data.length;i++)
+{
+  
+  x=x+cart.number[i]*cart.data[i].price
+ 
+}
+
+}
+if(x>=500)
+{
+  y=y+x;
+}
+else{
+  y=y+x+40
+}
+
 
  return (
     <div className={Styles.main}>
@@ -121,8 +148,8 @@ const handlebtn=(form)=>{
             <div>
         <div/>
         <br />
-       <Link to="/paymentpage">   <button style={{ backgroundColor: "green", color:"white"}} onClick={()=>handlebtn(form)}>Continue to Shipping</button> </Link>
-     <span>Return To Cart</span>
+       <Link to="/paymentpage">   <button style={{ backgroundColor: "green", color:"white"}} className={Styles.button} onClick={()=>handlebtn(form)}>Continue to Shipping</button> </Link>
+     <span className={Styles.span}>Return To Cart</span>
     </div>
     </form>
    
@@ -130,8 +157,8 @@ const handlebtn=(form)=>{
     <br />
 <hr style={{ width: "550px"}}/>
 <div>
-<span>Refund policy </span> <span>Shipping policy </span>
-<span>Privacy policy</span> <span>Term of Service</span>
+<span  className={Styles.span}>Refund policy </span> <span  className={Styles.span}>Shipping policy </span>
+<span  className={Styles.span}>Privacy policy</span> <span  className={Styles.span}>Term of Service</span>
 </div>
 
     </div>
@@ -141,7 +168,23 @@ const handlebtn=(form)=>{
           <div className={Styles.box2}>
           <div>
             <div>
-                {/* {here  map the product} */}
+            
+    {cart.data && cart.data.map((el)=>{
+     return <div className={Styles.cart}>
+      <div>
+      <img src={el.image} />
+      </div>
+       <div>
+       <p>{el.title}</p>
+      </div>
+      <div>
+        Qty:1
+      </div>
+       <div>
+       <p>₹{el.price}</p>
+       </div>
+      </div>
+    })}
             </div>
              <hr  />
              <br />
@@ -154,18 +197,18 @@ const handlebtn=(form)=>{
                <div className={Styles.total}>
               <div>
                  <h2> Subtotal</h2>
-                 <h2>300rupes</h2>
+                 <h2>₹{x}</h2>
                  </div>
               <div>
                 <h2>Shipping Charges</h2>
-                <p>Free above the 500 repis</p>
+                <p>{500>=x ?  "₹40" :"Free above the 500 repis" }</p>
               </div>
               <br />
               <hr />
               <div>
                 <h1>Total</h1>
-                <h1><span>INR</span>
-                    8000</h1>
+                <h1><span>INR </span>
+                ₹{y} </h1>
               </div>
                </div>
 

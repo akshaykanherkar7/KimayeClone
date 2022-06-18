@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
 import Styles from "./Checkout.module.css"
+import { Link } from 'react-router-dom'
 export const Paymentpage = () => {
   
   const [contact,SetContact]=useState([])
-
+  const [cart,setCart]=useState([])
 
   useEffect(()=>{
 const contact= JSON.parse(localStorage.getItem("form"))
@@ -14,6 +15,37 @@ if(contact)
 }
 
   },[])
+  useEffect(()=>{
+  
+    const carts=JSON.parse(localStorage.getItem("cartitem"))
+  setCart(carts)
+  
+  },[setCart])
+  
+  
+  
+  
+  if(cart.data!==undefined)
+  {
+  var x=0;
+  var y=0;
+  for(let i=0;i<cart.data.length;i++)
+  {
+    
+    x=x+cart.number[i]*cart.data[i].price
+   
+  }
+  
+  }
+  if(x>=500)
+  {
+    y=y+x;
+  }
+  else{
+    y=y+x+40
+  }
+  
+  
   
  return (
     <div className={Styles.main}>
@@ -93,12 +125,13 @@ if(contact)
                 </div>
                 
                </div>
-               <button className={Styles.save}> CONFIRM ORDER</button>
+               <Link to="/Sucess">  <button className={Styles.save}> CONFIRM ORDER</button></Link>
+             
               
   <hr style={{ width: "550px"}}/>
   <div>
-  <span>Refund policy </span> <span>Shipping policy </span>
-  <span>Privacy policy</span> <span>Term of Service</span>
+  <span className={Styles.span}>Refund policy </span> <span  className={Styles.span}>Shipping policy </span>
+  <span  className={Styles.span}>Privacy policy</span> <span  className={Styles.span}>Term of Service</span>
   </div>
   
       </div>
@@ -108,7 +141,22 @@ if(contact)
             <div className={Styles.box2}>
             <div>
               <div>
-                  {/* {here  map the product} */}
+              {cart.data && cart.data.map((el)=>{
+     return <div className={Styles.cart}>
+      <div>
+      <img src={el.image} />
+      </div>
+       <div>
+       <p>{el.title}</p>
+      </div>
+      <div>
+        Qty:1
+      </div>
+       <div>
+       <p>₹{el.price}</p>
+       </div>
+      </div>
+    })}
               </div>
                <hr  />
                <br />
@@ -121,18 +169,18 @@ if(contact)
                  <div className={Styles.total}>
                 <div>
                    <h2> Subtotal</h2>
-                   <h2>300rupes</h2>
+                   <h2>₹{x}</h2>
                    </div>
                 <div>
                   <h2>Shipping Charges</h2>
-                  <p>Free above the 500 repis</p>
+                  <p>{500>=x ?  "₹40" :"Free above the ₹500 " }</p>
                 </div>
                 <br />
                 <hr />
                 <div>
                   <h1>Total</h1>
                   <h1><span>INR</span>
-                      8000</h1>
+                  ₹{y}</h1>
                 </div>
                  </div>
   
