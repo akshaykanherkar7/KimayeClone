@@ -1,5 +1,17 @@
 import React from "react";
-import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
+import {
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  Popover,
+  PopoverTrigger,
+  PopoverBody,
+  PopoverArrow,
+  PopoverHeader,
+  PopoverContent,
+  PopoverCloseButton,
+} from "@chakra-ui/react";
 import { ChevronDownIcon, SearchIcon } from "@chakra-ui/icons";
 import {
   Drawer,
@@ -159,9 +171,43 @@ const Navbar = () => {
             </Modal> */}
           </div>
           <div>
-            <button>
+            {/* <button>
               <SearchIcon style={{ fontSize: "20px" }}></SearchIcon>
-            </button>
+            </button> */}
+            <Popover>
+              <PopoverTrigger>
+                <Button
+                  style={{
+                    marginTop: "-8px",
+                    width: "10%",
+                    // border: "1px solid",
+                  }}
+                >
+                  <SearchIcon style={{ fontSize: "20px" }}></SearchIcon>
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent>
+                <PopoverArrow />
+                <PopoverCloseButton />
+                {/* <PopoverHeader>Search Products by Name</PopoverHeader> */}
+                <PopoverBody>
+                  <input
+                    type="text"
+                    placeholder="Search for products"
+                    style={{ border: "1px solid", width: "60%" }}
+                  />
+                  <button
+                    style={{
+                      border: "1px solid",
+                      backgroundColor: "#98cb4c",
+                      padding: "7px",
+                    }}
+                  >
+                    Search
+                  </button>
+                </PopoverBody>
+              </PopoverContent>
+            </Popover>
           </div>
           <div>
             <Signin></Signin>
@@ -171,7 +217,11 @@ const Navbar = () => {
             {/* Drawer    */}
           </div>
           <div>
-            <button onClick={()=>{navigate('/cart')}}>
+            <button
+              onClick={() => {
+                navigate("/cart");
+              }}
+            >
               <i
                 style={{ fontSize: "20px" }}
                 class="fa-solid fa-bag-shopping"
