@@ -35,6 +35,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import Login from "../Pages/LoginSignin/Login";
 import Signin from "../Pages/LoginSignin/Signin";
+import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -135,6 +136,7 @@ const Navbar = () => {
         </div>
         <div style={{ width: "10%" }}>
           <img
+            className={styles.logo}
             onClick={() => navigate("/")}
             style={{ width: "100%" }}
             src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/website-logo_400x@2x.png?v=1596288204"
