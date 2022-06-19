@@ -89,295 +89,321 @@ const Signin = () => {
   };
   return (
     <div>
-      <button ref={btnRef} colorScheme="teal" onClick={onOpen}>
-        <i style={{ fontSize: "20px" }} class="fa-regular fa-user"></i>
-      </button>
-      <Drawer
-        isOpen={isOpen}
-        placement="right"
-        onClose={onClose}
-        finalFocusRef={btnRef}
-      >
-        <DrawerOverlay />
-        <DrawerContent>
-          <DrawerCloseButton style={{ color: "white" }} />
-          <DrawerHeader>
-            <div
-              style={{
-                border: "1px solid",
-                borderColor: "black",
-                height: "80px",
-                width: "320px",
-                marginLeft: "-25px",
-                marginTop: "-16px",
-                color: "white",
-                backgroundColor: "black",
-              }}
-            >
-              <h1 style={{ marginTop: "20px", marginLeft: "20px" }}>SIGN IN</h1>
-            </div>
-          </DrawerHeader>
+      {isAuth ? (
+        <div onClick={() => navigate("/myaccount")}>
+          <button ref={btnRef} colorScheme="teal" onClick={onOpen}>
+            <i style={{ fontSize: "20px" }} class="fa-regular fa-user"></i>
+          </button>
+        </div>
+      ) : (
+        <div>
+          <button ref={btnRef} colorScheme="teal" onClick={onOpen}>
+            <i style={{ fontSize: "20px" }} class="fa-regular fa-user"></i>
+          </button>
+          <Drawer
+            isOpen={isOpen}
+            placement="right"
+            onClose={onClose}
+            finalFocusRef={btnRef}
+          >
+            <DrawerOverlay />
+            <DrawerContent>
+              <DrawerCloseButton style={{ color: "white" }} />
+              <DrawerHeader>
+                <div
+                  style={{
+                    border: "1px solid",
+                    borderColor: "black",
+                    height: "80px",
+                    width: "320px",
+                    marginLeft: "-25px",
+                    marginTop: "-16px",
+                    color: "white",
+                    backgroundColor: "black",
+                  }}
+                >
+                  <h1 style={{ marginTop: "20px", marginLeft: "20px" }}>
+                    SIGN IN
+                  </h1>
+                </div>
+              </DrawerHeader>
 
-          <DrawerBody>
-            {login ? (
-              <div className="mainregisterdiv">
-                <form onSubmit={handleSubmit}>
-                  <div className="facebookredirectlink">
-                    <Flex minWidth="max-content" alignItems="center" gap="2">
-                      <Box p="2">
-                        <Heading
-                          size="md"
-                          color="white"
-                          fontWeight="500"
-                          fontSize="15px"
+              <DrawerBody>
+                {login ? (
+                  <div className="mainregisterdiv">
+                    <form onSubmit={handleSubmit}>
+                      <div className="facebookredirectlink">
+                        <Flex
+                          minWidth="max-content"
+                          alignItems="center"
+                          gap="2"
                         >
-                          Sign in with Facebook
-                        </Heading>
-                      </Box>
-                      <Spacer />
-                      {/* <FontAwesomeIcon
+                          <Box p="2">
+                            <Heading
+                              size="md"
+                              color="white"
+                              fontWeight="500"
+                              fontSize="15px"
+                            >
+                              Sign in with Facebook
+                            </Heading>
+                          </Box>
+                          <Spacer />
+                          {/* <FontAwesomeIcon
                   icon={faFacebookSquare}
                   className="facebooksquareicon"
                 ></FontAwesomeIcon> */}
-                    </Flex>
-                  </div>
-                  <div className="googleredirectlink">
-                    <Flex minWidth="max-content" alignItems="center" gap="2">
-                      <Box p="2">
-                        <Heading
-                          size="md"
-                          color="white"
-                          fontWeight="500"
-                          fontSize="15px"
+                        </Flex>
+                      </div>
+                      <div className="googleredirectlink">
+                        <Flex
+                          minWidth="max-content"
+                          alignItems="center"
+                          gap="2"
                         >
-                          Sign in with Google
-                        </Heading>
-                      </Box>
-                      <Spacer />
-                      {/* <FontAwesomeIcon
+                          <Box p="2">
+                            <Heading
+                              size="md"
+                              color="white"
+                              fontWeight="500"
+                              fontSize="15px"
+                            >
+                              Sign in with Google
+                            </Heading>
+                          </Box>
+                          <Spacer />
+                          {/* <FontAwesomeIcon
                   icon={faGooglePlusSquare}
                   className="googleplussquareicon"
                 ></FontAwesomeIcon> */}
-                    </Flex>
-                  </div>
-                  <br />
-                  <div>
-                    <FormControl>
-                      <FormLabel
-                        htmlFor="first-name"
-                        fontWeight="450"
-                        color="black"
-                      >
-                        First Name
-                      </FormLabel>
-                      <Input
-                        id="first-name"
-                        placeholder="First name"
-                        borderRadius="none"
-                        className="form-control"
-                        onChange={(event) => setFirstName(event.target.value)}
-                      />
-                    </FormControl>
-                  </div>
-                  <br />
-                  <div>
-                    <FormControl>
-                      <FormLabel
-                        htmlFor="first-name"
-                        fontWeight="450"
-                        color="black"
-                      >
-                        Last name
-                      </FormLabel>
-                      <Input
-                        id="first-name"
-                        placeholder="Last name"
-                        borderRadius="none"
-                        className="form-control"
-                        onChange={(event) => setLastName(event.target.value)}
-                      />
-                    </FormControl>
-                  </div>
-                  <br />
-                  <div>
-                    <FormControl isRequired>
-                      <FormLabel
-                        htmlFor="first-name"
-                        fontWeight="450"
-                        color="black"
-                      >
-                        Email address
-                      </FormLabel>
-                      <Input
-                        id="first-name"
-                        placeholder="Email address"
-                        borderRadius="none"
-                        className="form-control"
-                        onChange={(event) => setEmail(event.target.value)}
-                      />
-                    </FormControl>
-                  </div>
-                  <br />
-                  <div>
-                    <FormControl isRequired>
-                      <FormLabel
-                        htmlFor="first-name"
-                        fontWeight="450"
-                        color="black"
-                      >
-                        Password
-                      </FormLabel>
-                      <Input
-                        id="first-name"
-                        placeholder="Password"
-                        borderRadius="none"
-                        type="password"
-                        className="form-control"
-                        onChange={(event) => setPassword(event.target.value)}
-                      />
-                    </FormControl>
-                  </div>
-                  {/* <FontAwesomeIcon icon="fa-solid fa-dash" />
+                        </Flex>
+                      </div>
+                      <br />
+                      <div>
+                        <FormControl>
+                          <FormLabel
+                            htmlFor="first-name"
+                            fontWeight="450"
+                            color="black"
+                          >
+                            First Name
+                          </FormLabel>
+                          <Input
+                            id="first-name"
+                            placeholder="First name"
+                            borderRadius="none"
+                            className="form-control"
+                            onChange={(event) =>
+                              setFirstName(event.target.value)
+                            }
+                          />
+                        </FormControl>
+                      </div>
+                      <br />
+                      <div>
+                        <FormControl>
+                          <FormLabel
+                            htmlFor="first-name"
+                            fontWeight="450"
+                            color="black"
+                          >
+                            Last name
+                          </FormLabel>
+                          <Input
+                            id="first-name"
+                            placeholder="Last name"
+                            borderRadius="none"
+                            className="form-control"
+                            onChange={(event) =>
+                              setLastName(event.target.value)
+                            }
+                          />
+                        </FormControl>
+                      </div>
+                      <br />
+                      <div>
+                        <FormControl isRequired>
+                          <FormLabel
+                            htmlFor="first-name"
+                            fontWeight="450"
+                            color="black"
+                          >
+                            Email address
+                          </FormLabel>
+                          <Input
+                            id="first-name"
+                            placeholder="Email address"
+                            borderRadius="none"
+                            className="form-control"
+                            onChange={(event) => setEmail(event.target.value)}
+                          />
+                        </FormControl>
+                      </div>
+                      <br />
+                      <div>
+                        <FormControl isRequired>
+                          <FormLabel
+                            htmlFor="first-name"
+                            fontWeight="450"
+                            color="black"
+                          >
+                            Password
+                          </FormLabel>
+                          <Input
+                            id="first-name"
+                            placeholder="Password"
+                            borderRadius="none"
+                            type="password"
+                            className="form-control"
+                            onChange={(event) =>
+                              setPassword(event.target.value)
+                            }
+                          />
+                        </FormControl>
+                      </div>
+                      {/* <FontAwesomeIcon icon="fa-solid fa-dash" />
             <FontAwesomeIcon icon="fa-brands fa-youtube" /> */}
-                  <br />
-                  <br />
-                  <Button
-                    colorScheme="none"
-                    border="2px solid black"
-                    borderRadius="none"
-                    color="black"
-                    width="250px"
-                    type="submit"
-                    className="register-btn"
-                    // onClick={() => <Login />}
-                  >
-                    REGISTER
-                  </Button>
-                  <div className="horizontalline"></div>
-                  <div>
-                    {/* <FontAwesomeIcon
+                      <br />
+                      <br />
+                      <Button
+                        colorScheme="none"
+                        border="2px solid black"
+                        borderRadius="none"
+                        color="black"
+                        width="250px"
+                        type="submit"
+                        className="register-btn"
+                        // onClick={() => <Login />}
+                      >
+                        REGISTER
+                      </Button>
+                      <div className="horizontalline"></div>
+                      <div>
+                        {/* <FontAwesomeIcon
                 icon={faUser}
                 className="userIcon"
               ></FontAwesomeIcon> */}
+                      </div>
+                      <h3 className="noaccountyet">No account yet?</h3>
+                      <h3 className="welcometokimayetext">
+                        Welcome to Kimaye! Help us with a few details to know
+                        you better as you take the journey of enjoying our safe
+                        and tasty fruits.
+                      </h3>
+                    </form>
+                    <Button
+                      colorScheme="none"
+                      border="2px solid black"
+                      borderRadius="none"
+                      color="black"
+                      width="fit_content"
+                      type="submit"
+                      className="first-login-btn"
+                      onClick={() => setLogin(false)}
+                    >
+                      LOGIN
+                    </Button>
                   </div>
-                  <h3 className="noaccountyet">No account yet?</h3>
-                  <h3 className="welcometokimayetext">
-                    Welcome to Kimaye! Help us with a few details to know you
-                    better as you take the journey of enjoying our safe and
-                    tasty fruits.
-                  </h3>
-                </form>
-                <Button
-                  colorScheme="none"
-                  border="2px solid black"
-                  borderRadius="none"
-                  color="black"
-                  width="fit_content"
-                  type="submit"
-                  className="first-login-btn"
-                  onClick={() => setLogin(false)}
-                >
-                  LOGIN
-                </Button>
-              </div>
-            ) : (
-              <div>
-                <label>Email address</label>
-                <label style={{ color: "red" }}>*</label>
-                <Input
-                  placeholder="enter email"
-                  onChange={(e) => setLoginEmail(e.target.value)}
-                />
-                <br />
-                <br />
-                <label>Password</label>
-                <label style={{ color: "red" }}>*</label>
-                <Input
-                  type="password"
-                  placeholder="enter password"
-                  onChange={(e) => setLoginPass(e.target.value)}
-                />
-                <button
-                  onClick={() => handleLogin(loginEmail, loginpass, onClose)}
-                  style={{
-                    border: "1px solid",
-                    width: "100%",
-                    marginTop: "30px",
-                    height: "40px",
-                  }}
-                >
-                  Login
-                </button>
-                <br />
-                <br />
-                <br />
-                <div
-                  style={{
-                    display: "flex",
-                    border: "1px solid",
-                    justifyContent: "center",
-                    backgroundColor: "black",
-                  }}
-                >
-                  <button
-                    style={{
-                      width: "90%",
-                      // marginTop: "10px",
-                      textAlign: "center",
-                      color: "white",
-                    }}
-                  >
-                    Sign in with Facebook
-                  </button>
-                  <img
-                    src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/fb-icon.png?v=1599571756"
-                    alt=""
-                  />
-                </div>
-                <div
-                  style={{
-                    display: "flex",
-                    border: "1px solid",
-                    justifyContent: "center",
-                    backgroundColor: "black",
-                    marginTop: "10px",
-                    height: "45px",
-                  }}
-                >
-                  <button
-                    style={{
-                      width: "90%",
-                      // marginTop: "5px",
-                      textAlign: "center",
-                      color: "white",
-                    }}
-                  >
-                    Sign in with Google
-                  </button>
-                  <img
-                    style={{ width: "20%" }}
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj-uh7VCr5_TuCekl8xf4Lb4uUlVg5sR9eDA&usqp=CAU"
-                    alt=""
-                  />
-                </div>
-                <br />
-                <br />
-                <br />
-                <div>
-                  <button
-                    // ref={btnRef}
-                    // onClick={onOpen}
-                    onClick={() => setLogin(true)}
-                    style={{
-                      border: "1px solid",
-                      width: "100%",
-                      height: "60px",
-                    }}
-                  >
-                    Create an Account
-                  </button>
-                  {/* <Signin></Signin> */}
-                  {/* <Drawer
+                ) : (
+                  <div>
+                    <label>Email address</label>
+                    <label style={{ color: "red" }}>*</label>
+                    <Input
+                      placeholder="enter email"
+                      onChange={(e) => setLoginEmail(e.target.value)}
+                    />
+                    <br />
+                    <br />
+                    <label>Password</label>
+                    <label style={{ color: "red" }}>*</label>
+                    <Input
+                      type="password"
+                      placeholder="enter password"
+                      onChange={(e) => setLoginPass(e.target.value)}
+                    />
+                    <button
+                      onClick={() =>
+                        handleLogin(loginEmail, loginpass, onClose)
+                      }
+                      style={{
+                        border: "1px solid",
+                        width: "100%",
+                        marginTop: "30px",
+                        height: "40px",
+                      }}
+                    >
+                      Login
+                    </button>
+                    <br />
+                    <br />
+                    <br />
+                    <div
+                      style={{
+                        display: "flex",
+                        border: "1px solid",
+                        justifyContent: "center",
+                        backgroundColor: "black",
+                      }}
+                    >
+                      <button
+                        style={{
+                          width: "90%",
+                          // marginTop: "10px",
+                          textAlign: "center",
+                          color: "white",
+                        }}
+                      >
+                        Sign in with Facebook
+                      </button>
+                      <img
+                        src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/fb-icon.png?v=1599571756"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        border: "1px solid",
+                        justifyContent: "center",
+                        backgroundColor: "black",
+                        marginTop: "10px",
+                        height: "45px",
+                      }}
+                    >
+                      <button
+                        style={{
+                          width: "90%",
+                          // marginTop: "5px",
+                          textAlign: "center",
+                          color: "white",
+                        }}
+                      >
+                        Sign in with Google
+                      </button>
+                      <img
+                        style={{ width: "20%" }}
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj-uh7VCr5_TuCekl8xf4Lb4uUlVg5sR9eDA&usqp=CAU"
+                        alt=""
+                      />
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                    <div>
+                      <button
+                        // ref={btnRef}
+                        // onClick={onOpen}
+                        onClick={() => setLogin(true)}
+                        style={{
+                          border: "1px solid",
+                          width: "100%",
+                          height: "60px",
+                        }}
+                      >
+                        Create an Account
+                      </button>
+                      {/* <Signin></Signin> */}
+                      {/* <Drawer
                       isOpen={isOpen}
                       placement="right"
                       onClose={onClose}
@@ -400,18 +426,20 @@ const Signin = () => {
                         </DrawerFooter>
                       </DrawerContent>
                     </Drawer> */}
-                </div>
-              </div>
-            )}
-          </DrawerBody>
+                    </div>
+                  </div>
+                )}
+              </DrawerBody>
 
-          <DrawerFooter>
-            {/* <Button variant="outline" mr={3} onClick={onClose}>
+              <DrawerFooter>
+                {/* <Button variant="outline" mr={3} onClick={onClose}>
               Go to Login
             </Button> */}
-          </DrawerFooter>
-        </DrawerContent>
-      </Drawer>
+              </DrawerFooter>
+            </DrawerContent>
+          </Drawer>
+        </div>
+      )}
     </div>
   );
 };
