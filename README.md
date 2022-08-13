@@ -1,3 +1,57 @@
+# Masai School Construct Week Project
+
+Welcome, we're are team “KimayeClone”, and this Readme contains detail about our project. We‘ve built a cloned website of kimaye.com with some of its basic functionalities. This overall project was a part of our construct week at Masai School.
+
+
+## About Project
+Kimaye is India's best and most trusted Fruits provider website which has helped millions of needies. Building this project has been a chellenging job and fun at the same time. This project is build using tech stacks like <br />
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![CodeSandbox](https://img.shields.io/badge/Codesandbox-040404?style=for-the-badge&logo=codesandbox&logoColor=DBDBDB)
+
+
+## Pages & Features
+
+- Homepage: Basic UI with sliding window attached to the below of navbar.
+- Fruits Page: In this Page you will see all the fruits by their categorywise.
+- Sign-up & Sign-in Page
+- Fruit Details page: where you can see all the detail related to that perticular fruit like-> Incredients,calaries and all
+- Cart Page
+- Payment Page
+- How it works page
+
+## Deployment Link
+
+https://kimayeclone.netlify.app/
+
+## 🔗 Team Members
+    1. Akshay Kanherkar - Leader
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://akshay-kanherkar.netlify.app)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akshay-kanherkar-0178531b1/)
+    
+    2. Shashank Kumar
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shashank-kumar-83008122b/)
+    
+    3. Shoaib Patel
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shoaib-patel-230449203/)
+    
+    4. Aman Khan
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aman-khan-5295a417b/)
+    
+    5. Vishal Gholve
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishal-gholve-444b9122b/)
+
+    6. Komal Tiwari
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/komal-tiwari-/)
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at our respective linkedin profiles mentioned above
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
