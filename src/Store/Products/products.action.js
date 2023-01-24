@@ -10,7 +10,7 @@ import {
 
 export const getAllFruits = () => (dispatch) => {
   dispatch({ type: GET_LOADING });
-  axios.get("http://localhost:8080/allfruits").then((res) => {
+  axios.get("https://kimayaclone-api.onrender.com/allfruits").then((res) => {
     setTimeout(() => {
       dispatch({ type: GET_ALL_FRUITS, payload: res.data });
     }, 500);
@@ -19,7 +19,7 @@ export const getAllFruits = () => (dispatch) => {
 
 export const getFreshCuts = () => (dispatch) => {
   dispatch({ type: GET_LOADING });
-  axios.get("http://localhost:8080/freshcuts").then((res) => {
+  axios.get("https://kimayaclone-api.onrender.com/freshcuts").then((res) => {
     setTimeout(() => {
       dispatch({ type: GET_FRESH_CUTS, payload: res.data });
     }, 500);
@@ -28,7 +28,7 @@ export const getFreshCuts = () => (dispatch) => {
 
 export const getFruitCombos = () => (dispatch) => {
   dispatch({ type: GET_LOADING });
-  axios.get("http://localhost:8080/fruitcombos").then((res) => {
+  axios.get("https://kimayaclone-api.onrender.com/fruitcombos").then((res) => {
     setTimeout(() => {
       dispatch({ type: GET_FRUIT_COMBOS, payload: res.data });
     }, 500);
@@ -37,7 +37,7 @@ export const getFruitCombos = () => (dispatch) => {
 
 export const getGiftsByKimaye = () => (dispatch) => {
   dispatch({ type: GET_LOADING });
-  axios.get("http://localhost:8080/giftsbykimaye").then((res) => {
+  axios.get("https://kimayaclone-api.onrender.com/giftsbykimaye").then((res) => {
     setTimeout(() => {
       dispatch({ type: GET_GIFTS_BY_KIMAYE, payload: res.data });
     }, 500);

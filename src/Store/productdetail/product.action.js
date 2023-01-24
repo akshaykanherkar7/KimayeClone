@@ -4,7 +4,7 @@ import axios from "axios"
 
 export const get_product = (creds)=>(dispatch)=>{
   
-  axios.get(`http://localhost:8080/${creds.categeory}`)
+  axios.get(`https://kimayaclone-api.onrender.com/${creds.categeory}`)
     .then((r)=>{
       console.log("r.data",r.data)
       let a = r.data.filter((b)=>b.title===creds.title)
@@ -25,7 +25,7 @@ export const cartdelivery = (cart)=>(dispatch)=>{
   dispatch({type:Sendtocart,payload:cart})
 }
 export const getarray=(creds)=>(dispatch)=>{
-  axios.get(`http://localhost:8080/${creds.categeory}`)
+  axios.get(`https://kimayaclone-api.onrender.com/${creds.categeory}`)
     .then((r)=>{
       
       // console.log("its",a)
