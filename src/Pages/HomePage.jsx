@@ -426,31 +426,11 @@ const HomePage = () => {
               >
                 <img
                   style={{ width: "38%", borderRadius: "30px" }}
-                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/AdobeStock_334275008-2-opt2-1900px_720x.jpg?v=1627119119"
+                  src="https://imgs.search.brave.com/XReMHbbEK4l40X8q7xKYKkn1pcD0B-ftzc12fO2cNTA/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5a/YWljSk4zb3JWNmhv/UkJRMWRRWVhRSGFI/YSZwaWQ9QXBp"
                 />
                 <img
                   style={{ width: "38%", borderRadius: "30px" }}
-                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/AdobeStock_201343750_copy__66kb-1000px_720x.jpg?v=1626676701"
-                />
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  // justifyContent: "space-evenly",
-                  justifyContent: "center",
-                  gap: "30px",
-                  // border: "1px solid",
-                  height: "380px",
-                  marginTop: "40px",
-                }}
-              >
-                <img
-                  style={{ width: "38%", borderRadius: "30px" }}
-                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/AdobeStock_77286816-min__1625567830_114.143.85.97_720x.jpg?v=1625638895"
-                />
-                <img
-                  style={{ width: "38%", borderRadius: "30px" }}
-                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/Blog_-_Benefits_of_fruits_720x.jpg?v=1625147388"
+                  src="https://imgs.search.brave.com/hw0VxRPXB2HWGW6kz7ywO-n60cOvQ-0GxDnbWdqynls/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC40/MXFiRlhYMWctRFdz/WVJ1YlotMFJ3SGFI/YSZwaWQ9QXBp"
                 />
               </div>
               <div
@@ -466,11 +446,11 @@ const HomePage = () => {
               >
                 <img
                   style={{ width: "38%", borderRadius: "30px" }}
-                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/Untitled_design_51-min_720x.png?v=1614341965"
+                  src="https://imgs.search.brave.com/AeXX8Cvw4DhRgyhoQO7PNCkqGMGA2RtOzdIajYEZK18/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5v/OHVobXNlT3g2bmYw/Z2lkU0xmZzlnSGFI/YSZwaWQ9QXBp"
                 />
                 <img
                   style={{ width: "38%", borderRadius: "30px" }}
-                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/immune_system_1728x-min_720x.jpg?v=1614342193"
+                  src="https://imgs.search.brave.com/G9OJdCv_Ab9aUuZqaceMfBEUm1aKb4lid3ySQaKSu4c/rs:fit:542:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC50/cjZwN2hhZFFLeGpa/d3RJOGE0Q1VnQUFB/QSZwaWQ9QXBp"
                 />
               </div>
               <div
@@ -486,11 +466,31 @@ const HomePage = () => {
               >
                 <img
                   style={{ width: "38%", borderRadius: "30px" }}
-                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/pomegranate-min_720x.jpg?v=1614342435"
+                  src="https://imgs.search.brave.com/YC0_Y7iof7gAEO_4pc1gevx4zA5NYrCQiOb8lufAZGs/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/N2lmc3NaRDJoVTF3/U3dyTjgwaFBRSGFI/YSZwaWQ9QXBp"
                 />
                 <img
                   style={{ width: "38%", borderRadius: "30px" }}
-                  src="https://cdn.shopify.com/s/files/1/0449/5225/6667/articles/healthy_heart-min_720x.jpg?v=1614342271"
+                  src="https://imgs.search.brave.com/U_oeVYb1vzWh5SnM61jkUcVMyKx4tzO1ybAmnwmG5fQ/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC51/S3ZBLTFFcVgzZkMw/eFRYbjdVWTFRSGFI/YSZwaWQ9QXBp"
+                />
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  // justifyContent: "space-evenly",
+                  justifyContent: "center",
+                  gap: "30px",
+                  // border: "1px solid",
+                  height: "380px",
+                  marginTop: "40px",
+                }}
+              >
+                <img
+                  style={{ width: "38%", borderRadius: "30px" }}
+                  src="https://imgs.search.brave.com/h-1S41xblhIiU8mFMzaQDdg_KswupGvbRKKysv-0N-s/rs:fit:558:225:1/g:ce/aHR0cHM6Ly90c2Uz/LmV4cGxpY2l0LmJp/bmcubmV0L3RoP2lk/PU9JUC5UWk9wSUVW/cDFSY3Fna2dBNEhI/cHhBSGFHUyZwaWQ9/QXBp"
+                />
+                <img
+                  style={{ width: "38%", borderRadius: "30px" }}
+                  src="https://imgs.search.brave.com/7ISp8wZ6qsybpfxExOZI7yHmB_om-twOPtGWc9wGFgs/rs:fit:516:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC56/bG1iaVEzNF94a0J5/MURScWFNQzZ3SGFH/eiZwaWQ9QXBp"
                 />
               </div>
             </Carousel>
