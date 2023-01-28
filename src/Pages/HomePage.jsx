@@ -500,7 +500,7 @@ const HomePage = () => {
 
       {/* PSST LOKIN FOR US  */}
       <div className={styles.psstContainer}>
-        <h1>PSST… LOOKIN’S FOR US?</h1>
+        <h1>PSST… LOOKIN’S FOR US ?</h1>
         <h3>We are here</h3>
         <div className={styles.psstImg}>
           <img

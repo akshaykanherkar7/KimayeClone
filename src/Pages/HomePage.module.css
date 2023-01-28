@@ -2,7 +2,7 @@ body {
     background-color:#f3f4ede0 ;
 }
 .FlexBox1{
-    /* border: 1px solid red; */
+ 
     width: 80%;
     margin: auto;
     display: flex;
@@ -10,9 +10,6 @@ body {
     margin-top: 70px;
 }
 .FlexBox1 div{
-    /* border: 1px solid red; */
-    /* width: 90%; */
-    /* margin: auto; */
     margin-left: 55px;
 }
 .FlexBox1 img{
